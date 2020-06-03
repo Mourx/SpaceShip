@@ -5,6 +5,5 @@ Charge::Charge() {
 
 }
 
-Charge::~Charge() {
 
-}
+

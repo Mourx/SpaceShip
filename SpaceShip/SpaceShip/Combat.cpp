@@ -15,6 +15,7 @@ Combat::Combat(RenderWindow* w) {
 	spaceTex.loadFromFile("space.png");
 	space.setTexture(spaceTex);
 	space.setPosition(0, 0);
+
 	player = new Player();
 }
 
@@ -39,12 +40,47 @@ void Combat::Draw() {
 	
 }
 
-bool Combat::CheckMouse(Vector2f m) {
+void Combat::MouseDown(Vector2f m) {
 	for (Charge* c : player->getHand()) {
-		sf::FloatRect bounds = c->icon.getGlobalBounds();
+		FloatRect bounds = c->icon.getGlobalBounds();
 		if (bounds.contains(m)) {
-			player->selected = c;
+			player->selectedCharge = c;
+			offsetX = m.x - c->icon.getPosition().x;
+			offsetY = m.y - c->icon.getPosition().y;
+			snapPos = c->icon.getPosition();
 		}
 	}
-	return true;
+}
+
+void Combat::MoveMouse(Vector2f m) {
+	if (!player->selectedCharge == NULL) {
+		player->selectedCharge->icon.setPosition(m.x-offsetX,m.y-offsetY);
+		bool bGun = false;
+		for (Gun* g : player->guns) {
+			FloatRect bounds = g->icon.getGlobalBounds();
+			if (bounds.contains(m)) {
+				highlitGun = g;
+				bGun = true;
+			}
+		}
+		if (!bGun) {
+			highlitGun = NULL;
+		}
+	}
+}
+
+void Combat::MouseUp(Vector2f m) {
+	if (player->selectedCharge != NULL) {
+		if (highlitGun == NULL) {
+			player->selectedCharge->icon.setPosition(snapPos);
+		}
+		else {
+			player->selectedCharge->Fire(highlitGun);
+		}
+		player->selectedCharge = NULL;
+	}
+}
+
+void Combat::Update(Time t) {
+	player->Update(t);
 }

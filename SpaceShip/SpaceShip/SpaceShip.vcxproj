@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BasicCharge.cpp" />
     <ClCompile Include="Charge.cpp" />
     <ClCompile Include="Combat.cpp" />
     <ClCompile Include="Enemy.cpp" />

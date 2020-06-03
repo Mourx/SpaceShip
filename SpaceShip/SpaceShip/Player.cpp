@@ -23,26 +23,31 @@ Player::~Player() {
 void Player::initGuns() {
 	Gun* g = new Gun();
 	g->icon.setPosition(gunAX, gunAY);
+	g->row = 0;
 	guns.push_back(g);
 	ship->GiveGun(g);
 
 	g = new Gun();
 	g->icon.setPosition(gunBX, gunBY);
+	g->row = 1;
 	guns.push_back(g);
 	ship->GiveGun(g);
 
 	g = new Gun();
 	g->icon.setPosition(gunCX, gunCY);
+	g->row = 2;
 	guns.push_back(g);
 	ship->GiveGun(g);
 
 	g = new Gun();
 	g->icon.setPosition(gunDX, gunDY);
+	g->row = 3;
 	guns.push_back(g);
 	ship->GiveGun(g);
 
 	g = new Gun();
 	g->icon.setPosition(gunEX, gunEY);
+	g->row = 4;
 	guns.push_back(g);
 	ship->GiveGun(g);
 }
@@ -60,11 +65,21 @@ void Player::loadDeck() {
 void Player::Draw(RenderWindow* w) {
 	w->draw(icon);
 	for (Charge* c : hand) {
-		w->draw(c->icon);
+		c->Draw(w);
 	}
 }
 
 vector<Charge*> Player::getHand() {
 
 	return hand;
+}
+
+void Player::Update(Time t) {
+	for (Charge* c : hand) {
+		c->Update(t);
+	}
+}
+
+void Player::UseCharge(Charge* c) {
+
 }

@@ -2,8 +2,7 @@
 #include "Gun.h"
 #include <vector>
 using namespace std;
-
-
+class Gun;
 class Ship
 {
 public:

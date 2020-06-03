@@ -13,7 +13,10 @@ public:
 	void loadDeck();
 	void Draw(RenderWindow* w);
 	vector<Charge*> getHand();
-	Charge* selected;
+	Charge* selectedCharge = NULL;
+	Gun* selectedGun = NULL;
+	void Update(Time t);
+	void UseCharge(Charge* c);
 private:
 	Ship* ship;
 	Sprite icon;
