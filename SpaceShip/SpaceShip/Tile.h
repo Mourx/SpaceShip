@@ -1,6 +1,10 @@
 #pragma once
 #include "Enemy.h"
+#include "Charge.h"
+#include <SFML/Graphics.hpp>
 class Enemy;
+class Charge;
+using namespace sf;
 class Tile
 {
 public:

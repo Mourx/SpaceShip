@@ -45,6 +45,9 @@
     <ClCompile Include="BasicCharge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Dummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Combat.h">

@@ -7,11 +7,21 @@ class Enemy
 {
 public:
 	Enemy();
-	~Enemy();
+	virtual ~Enemy();
 	void setPosition(float x, float y);
 	Sprite icon;
-private:
+	String getName();
+	float getHealth();
+protected:
+	String name;
+	float health;
 	Ship* ship;
 	Texture iconTex;
 };
 
+class Dummy : public Enemy 
+{
+public:
+	Dummy();
+	~Dummy();
+};

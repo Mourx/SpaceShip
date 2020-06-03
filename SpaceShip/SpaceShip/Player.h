@@ -17,6 +17,9 @@ public:
 	Gun* selectedGun = NULL;
 	void Update(Time t);
 	void UseCharge(Charge* c);
+	vector<Vector2f> gunPos;
+	vector<Vector2f> handPos;
+
 private:
 	Ship* ship;
 	Sprite icon;
@@ -25,16 +28,8 @@ private:
 	vector<Charge*> deck;
 	vector<Charge*> hand;
 	vector<Charge*> discard;
-	float gunAX = 295;
-	float gunAY = 95;
-	float gunBX = 295;
-	float gunBY = 176;
-	float gunCX = 295;
-	float gunCY = 257;
-	float gunDX = 295;
-	float gunDY = 338;
-	float gunEX = 295;
-	float gunEY = 419;
+	int handSize = 4;
+
 
 };
 

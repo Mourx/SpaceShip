@@ -11,7 +11,7 @@ Combat::Combat(RenderWindow* w) {
 		}
 		combatGrid.push_back(r);
 	}
-	combatGrid[2][0]->setUnit(new Enemy());
+	combatGrid[2][0]->setUnit(new Dummy());
 	spaceTex.loadFromFile("space.png");
 	space.setTexture(spaceTex);
 	space.setPosition(0, 0);
@@ -72,10 +72,11 @@ void Combat::MoveMouse(Vector2f m) {
 void Combat::MouseUp(Vector2f m) {
 	if (player->selectedCharge != NULL) {
 		if (highlitGun == NULL) {
-			player->selectedCharge->icon.setPosition(snapPos);
+			player->selectedCharge->icon.setPosition(player->handPos[player->selectedCharge->handPos]);
 		}
 		else {
-			player->selectedCharge->Fire(highlitGun);
+			player->selectedCharge->Fire(highlitGun,combatGrid);
+			player->UseCharge(player->selectedCharge);
 		}
 		player->selectedCharge = NULL;
 	}

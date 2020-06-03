@@ -145,6 +145,7 @@
     <ClCompile Include="BasicCharge.cpp" />
     <ClCompile Include="Charge.cpp" />
     <ClCompile Include="Combat.cpp" />
+    <ClCompile Include="Dummy.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="enums.cpp" />
     <ClCompile Include="Gun.cpp" />

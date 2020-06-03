@@ -1,9 +1,10 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "Gun.h"
+#include "Tile.h"
 #include <iostream>
 class Gun;
-
+class Tile;
 using namespace sf;
 using namespace std;
 class Charge
@@ -11,12 +12,13 @@ class Charge
 public:
 	Charge();
 	virtual ~Charge() = default;
-	virtual void Fire(Gun* g) { cout << "base" << endl; }
-	virtual void Update(Time t) {};
+	virtual void Fire(Gun* g,vector<vector<Tile*>> grid) { cout << "base" << endl; }
+	virtual void Update(Time t);
 	virtual void StartTimer(Time t) {};
-	virtual void Draw(RenderWindow* w) {};
+	virtual void Draw(RenderWindow* w);
 	Sprite icon;
 	Sprite chargeEffect;
+	int handPos = 0;
 protected:
 	float damage;
 	int width;
@@ -32,8 +34,6 @@ class BasicCharge : public Charge {
 public:
 	BasicCharge();
 	~BasicCharge();
-	void Fire(Gun* g);
-	void Update(Time t);
+	void Fire(Gun* g, vector<vector<Tile*>> grid);
 	void StartTimer(Time t);
-	void Draw(RenderWindow* w);
 };

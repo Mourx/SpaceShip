@@ -8,39 +8,31 @@ BasicCharge::BasicCharge() {
 	chargeEffTex.loadFromFile("chargeEffect.png");
 	chargeEffect.setTexture(chargeEffTex);
 
-	effectTime = 1000;
+	damage = 5;
+	effectTime = 500000;
 }
 BasicCharge::~BasicCharge() {
 
 }
-void BasicCharge::Fire(Gun* g) {
+void BasicCharge::Fire(Gun* g, vector<vector<Tile*>> grid) {
 	//take row
 	//fire at front enemy
 	cout << "derived" << endl;
 	timer = 0;
 	bEffectVisible = true;
 	chargeEffect.setPosition(g->icon.getPosition().x + 50, g->icon.getPosition().y);
+	for (Tile* t : grid[g->row]) {
+		if (t->bHasUnit) {
+			Enemy* e = t->getUnit();
+			std::string s = e->getName();
+			cout << "Name: " << s << ", Health: " << e->getHealth() << endl;
+			//deal damage
+		}
+	}
 }
 
 void BasicCharge::StartTimer(Time t) {
 
 }
 
-void BasicCharge::Update(Time t) {
-	if (bEffectVisible) {
-		timer += t.asMilliseconds();
-		if (timer >= effectTime) {
-			timer = 0;
-			bEffectVisible = false;
-		}
-		
-	}
-}
 
-void BasicCharge::Draw(RenderWindow* w) {
-	w->draw(icon);
-	if (bEffectVisible) {
-		w->draw(chargeEffect);
-	}
-
-}

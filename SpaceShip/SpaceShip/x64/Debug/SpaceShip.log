@@ -1,17 +1,24 @@
 ﻿  BasicCharge.cpp
   Charge.cpp
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\charge.cpp(22): warning C4244: 'initializing': conversion from 'sf::Int64' to 'float', possible loss of data
   Combat.cpp
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\combat.cpp(6): warning C4244: '=': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
+  Dummy.cpp
   Enemy.cpp
   Gun.cpp
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\gun.cpp(7): warning C4305: 'argument': truncation from 'double' to 'float'
   main.cpp
   Player.cpp
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(59): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(76): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(78): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   Ship.cpp
   Tile.cpp
   Generating Code...
