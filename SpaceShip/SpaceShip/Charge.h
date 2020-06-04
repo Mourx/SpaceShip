@@ -4,7 +4,6 @@
 #include "Tile.h"
 #include <iostream>
 class Gun;
-class Tile;
 using namespace sf;
 using namespace std;
 class Charge
@@ -12,14 +11,17 @@ class Charge
 public:
 	Charge();
 	virtual ~Charge() = default;
-	virtual void Fire(Gun* g,vector<vector<Tile*>> grid) { cout << "base" << endl; }
+	virtual void Fire(Gun* g,vector<vector<Tile*>> grid,vector<Gun*> guns) { cout << "base" << endl; }
 	virtual void Update(Time t);
 	virtual void StartTimer(Time t) {};
 	virtual void Draw(RenderWindow* w);
+	int getCost() { return cost; };
 	Sprite icon;
 	Sprite chargeEffect;
 	int handPos = 0;
+	Vector2f restPos;
 protected:
+	int cost =0;
 	float damage;
 	int width;
 	Texture chargeTex;
@@ -34,6 +36,14 @@ class BasicCharge : public Charge {
 public:
 	BasicCharge();
 	~BasicCharge();
-	void Fire(Gun* g, vector<vector<Tile*>> grid);
-	void StartTimer(Time t);
+	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
+
+};
+
+class BasicShield : public Charge {
+public:
+	BasicShield();
+	~BasicShield();
+	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
+
 };

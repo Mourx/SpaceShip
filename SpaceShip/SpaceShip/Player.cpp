@@ -30,7 +30,9 @@ Player::Player() {
 	chargeDeck.push_back(new BasicCharge());
 	chargeDeck.push_back(new BasicCharge());
 	chargeDeck.push_back(new BasicCharge());
-	chargeDeck.push_back(new BasicCharge());
+	chargeDeck.push_back(new BasicShield());
+	chargeDeck.push_back(new BasicShield());
+	std::random_shuffle(deck.begin(), deck.end());
 	loadDeck();
 
 	
@@ -77,18 +79,21 @@ void Player::loadDeck() {
 	drawHand();
 }
 
-void Player::Draw(RenderWindow* w) {
+void Player::DrawBackground(RenderWindow* w) {
 	w->draw(icon);
+	
+	w->draw(healthIcon);
+	w->draw(healthText);
+}
+
+void Player::DrawDetails(RenderWindow* w) {
 	for (Charge* c : hand) {
 		c->Draw(w);
 	}
 	for (Charge* c : discard) {
 		c->Draw(w);
 	}
-	w->draw(healthIcon);
-	w->draw(healthText);
 }
-
 vector<Charge*> Player::getHand() {
 
 	return hand;
@@ -104,9 +109,21 @@ void Player::Update(Time t) {
 }
 
 void Player::UseCharge(Charge* c) {
+	currentEnergy -= c->getCost();
 	discard.push_back(c);
 	hand.erase(std::remove(hand.begin(), hand.end(), c),hand.end());
 	discard[discard.size()-1]->icon.setPosition(-150, -150);
+	int count = 0;
+	for (Charge* c : hand) {
+		if (handPos.size() == count) {
+			handPos.push_back(Vector2f(150 + count * 60, 680));
+		}
+		Vector2f pos = handPos[count];
+		c->icon.setPosition(pos);
+		c->restPos = pos;
+		count++;
+	}
+	
 }
 
 void Player::drawHand() {
@@ -123,9 +140,28 @@ void Player::drawHand() {
 		}
 		c->icon.setPosition(handPos[cardCount]);
 		c->handPos = hand.size();
+		c->restPos = handPos[cardCount];
 		hand.push_back(c);
 		deck.erase(deck.begin());
 		cardCount++;
 	}
 	cout << "Hand Drawn" << endl;
+}
+
+void Player::Damage(int dmg) {
+	health -= dmg;
+	if (health <= 0) {
+		health = 0;
+		bIsDead = true;
+	}
+	String hp = std::to_string(health);
+	healthText.setString(hp);
+}
+
+int Player::getDeckSize() {
+	return deck.size();
+}
+
+int Player::getDiscardSize() {
+	return discard.size();
 }

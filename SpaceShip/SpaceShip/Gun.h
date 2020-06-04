@@ -1,11 +1,11 @@
 #pragma once
-#include "Charge.h"
-#include <SFML/Graphics.hpp>
-#include "Tile.h"
 #include "Shield.h"
+#include <SFML/Graphics.hpp>
+
 using namespace sf;
 class Charge;
 class Shield;
+class Tile;
 class Gun
 {
 public:

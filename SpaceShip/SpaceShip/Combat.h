@@ -1,13 +1,16 @@
 #pragma once
-#include "Player.h"
 #include "Tile.h"
-#include <vector>
-#include "Charge.h"
+#include "Player.h"
 #include "Button.h"
+#include <vector>
+#include <SFML/Graphics.hpp>
 #include "enums.h"
 using namespace std;
+using namespace sf;
 class Charge;
 class Button;
+class Player;
+class Gun;
 class Combat
 {
 public:
@@ -21,6 +24,7 @@ public:
 	void AdvanceTurn();
 	void DoAITurn();
 	void CheckDeaths();
+	void UpdateStrings();
 	GAME_RESULT CheckGameOver();
 private:
 	Button* endTurn;
@@ -33,14 +37,25 @@ private:
 	float gridX = 400;
 	float gridY = 100;
 	vector<vector<Tile*>> combatGrid;
+	Font font;
 	Sprite space;
 	Texture spaceTex;
 	Sprite backGUI;
 	Texture backTex;
+	Sprite deck;
+	Sprite discard;
+	Texture deckTex;
+	Texture discardTex;
+	Text deckSize;
+	Text discardSize;
+	Sprite energy;
+	Texture energyTex;
+	Text energyText;
 	COMBAT_STEP phase = PLAYER_TURN;
 	vector<Enemy*> deadEnemies;
 	int totalEnemies;
 	bool bCombatOver = false;
 	GAME_RESULT result = ACTIVE;
+
 };
 

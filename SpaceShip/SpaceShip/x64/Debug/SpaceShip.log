@@ -1,7 +1,2 @@
-﻿  Combat.cpp
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\combat.cpp(6): warning C4244: '=': conversion from 'T' to 'float', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
+﻿  RewardScreen.cpp
   SpaceShip.vcxproj -> C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\x64\Debug\SpaceShip.exe

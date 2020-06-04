@@ -20,10 +20,11 @@ Gun::~Gun() {
 
 void Gun::SetPosition(Vector2f vec) {
 	icon.setPosition(vec);
-	shield->icon.setPosition(vec.x-5,vec.y-10);
+	shield->SetPosition(Vector2f(vec.x-5,vec.y-10));
 }
 
 void Gun::Draw(RenderWindow* w) {
 	w->draw(icon);
-	w->draw(shield->icon);
+	shield->Draw(w);
+	
 }

@@ -20,3 +20,8 @@ Dummy::Dummy() : Enemy(){
 Dummy::~Dummy(){
 
 }
+
+void Dummy::Attack(Gun* g, Player* p) {
+	int remainder = g->shield->Damage(damage);
+	p->Damage(remainder);
+}

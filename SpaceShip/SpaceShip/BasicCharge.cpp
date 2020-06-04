@@ -9,12 +9,13 @@ BasicCharge::BasicCharge() {
 	chargeEffect.setTexture(chargeEffTex);
 
 	damage = 5;
+	cost = 1;
 	effectTime = 500000;
 }
 BasicCharge::~BasicCharge() {
 
 }
-void BasicCharge::Fire(Gun* g, vector<vector<Tile*>> grid) {
+void BasicCharge::Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns) {
 	//take row
 	//fire at front enemy
 	cout << "derived" << endl;
@@ -32,8 +33,5 @@ void BasicCharge::Fire(Gun* g, vector<vector<Tile*>> grid) {
 	}
 }
 
-void BasicCharge::StartTimer(Time t) {
-
-}
 
 

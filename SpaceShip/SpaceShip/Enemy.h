@@ -1,8 +1,15 @@
 #pragma once
 #include "Ship.h"
+#include "Gun.h"
+#include "Charge.h"
+#include "Player.h"
 #include <SFML/Graphics.hpp>
 using namespace sf;
+using namespace std;
 class Ship;
+class Player;
+class Gun;
+class Charge;
 class Enemy
 {
 public:
@@ -10,6 +17,7 @@ public:
 	virtual ~Enemy();
 	void setPosition(float x, float y);
 	void Draw(RenderWindow* w);
+	virtual void Attack(Gun* g, Player* p) {};
 	Sprite icon;
 	String getName();
 	Sprite attackIcon;
@@ -36,4 +44,5 @@ class Dummy : public Enemy
 public:
 	Dummy();
 	~Dummy();
+	void Attack(Gun* g, Player* p);
 };

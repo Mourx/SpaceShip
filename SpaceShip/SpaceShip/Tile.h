@@ -1,9 +1,8 @@
 #pragma once
 #include "Enemy.h"
-#include "Charge.h"
 #include <SFML/Graphics.hpp>
-class Enemy;
 class Charge;
+class Enemy;
 using namespace sf;
 class Tile
 {

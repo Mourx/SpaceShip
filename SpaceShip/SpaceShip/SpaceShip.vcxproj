@@ -143,6 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BasicCharge.cpp" />
+    <ClCompile Include="BasicShield.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="Charge.cpp" />
     <ClCompile Include="Combat.cpp" />
@@ -153,6 +154,7 @@
     <ClCompile Include="Gun.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="RewardScreen.cpp" />
     <ClCompile Include="Shield.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="Tile.cpp" />
@@ -164,6 +166,7 @@
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Gun.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="RewardScreen.h" />
     <ClInclude Include="Shield.h" />
     <ClInclude Include="Ship.h" />
     <ClInclude Include="Tile.h" />

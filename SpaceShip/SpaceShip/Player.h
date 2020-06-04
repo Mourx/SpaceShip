@@ -1,7 +1,13 @@
 #pragma once
-#include "Ship.h"
 #include <SFML/Graphics.hpp>
+#include "Gun.h"
+#include "Ship.h"
+#include "Charge.h"
+#include <vector>
 using namespace sf;
+using namespace std;
+
+class Ship;
 class Player
 {
 public:
@@ -11,7 +17,8 @@ public:
 	vector<Gun*> guns;
 	void initGuns();
 	void loadDeck();
-	void Draw(RenderWindow* w);
+	void DrawBackground(RenderWindow* w);
+	void DrawDetails(RenderWindow* w);
 	vector<Charge*> getHand();
 	Charge* selectedCharge = NULL;
 	Gun* selectedGun = NULL;
@@ -20,9 +27,15 @@ public:
 	vector<Vector2f> gunPos;
 	vector<Vector2f> handPos;
 	void drawHand();
+	void Damage(int dmg);
 	Sprite healthIcon;
 	Text healthText;
 	int money;
+	bool bIsDead = false;
+	int getDeckSize();
+	int getDiscardSize();
+	int energyPerTurn = 3;
+	int currentEnergy = 0;
 private:
 	Ship* ship;
 	Sprite icon;

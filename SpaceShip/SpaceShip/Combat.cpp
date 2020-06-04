@@ -3,6 +3,7 @@
 
 Combat::Combat(RenderWindow* w,Player* p) {
 	window = w;
+	player = p;
 	gridX = 20 + window->getSize().x / 2;
 	for (int i = 0; i < 5; i++) {
 		vector<Tile*> r;
@@ -17,13 +18,42 @@ Combat::Combat(RenderWindow* w,Player* p) {
 	space.setTexture(spaceTex);
 	space.setPosition(0, 0);
 
+	font.loadFromFile("arial.ttf");
+
 	backTex.loadFromFile("backGUI.png");
 	backGUI.setTexture(backTex);
 	backGUI.setPosition(0, 500);
 
-	endTurn = new EndTurnButton();
+	deckTex.loadFromFile("deck.png");
+	deck.setTexture(deckTex);
+	deck.setPosition(30, 630);
+	deckSize.setPosition(deck.getPosition().x+15,deck.getPosition().y+8);
 
-	player = p;
+	discardTex.loadFromFile("discard.png");
+	discard.setTexture(discardTex);
+	discard.setPosition(720, 630);
+	discardSize.setPosition(discard.getPosition().x + 15, discard.getPosition().y + 8);
+
+	deckSize.setFont(font);
+	deckSize.setCharacterSize(18);
+	discardSize.setFont(font);
+	discardSize.setCharacterSize(18);
+
+	deckSize.setString(to_string(player->getDeckSize()));
+	discardSize.setString(to_string(player->getDiscardSize()));
+
+	energyTex.loadFromFile("energy.png");
+	energy.setTexture(energyTex);
+	energy.setPosition(15, 680);
+	energy.setScale(2, 2);
+	energyText.setPosition(energy.getPosition().x + 45, energy.getPosition().y + 37);
+	energyText.setCharacterSize(18);
+	energyText.setFont(font);
+	energyText.setString(to_string(player->currentEnergy));
+
+	endTurn = new EndTurnButton();
+	player->currentEnergy = player->energyPerTurn;
+	UpdateStrings();
 }
 
 Combat::~Combat() {
@@ -33,6 +63,13 @@ Combat::~Combat() {
 void Combat::Draw() {
 	window->draw(space);
 	window->draw(backGUI);
+	player->DrawBackground(window);
+	window->draw(deck);
+	window->draw(discard);
+	window->draw(deckSize);
+	window->draw(discardSize);
+	window->draw(energy);
+	window->draw(energyText);
 	for (Gun* g : player->guns) {
 		g->Draw(window);
 	}
@@ -44,10 +81,7 @@ void Combat::Draw() {
 			}
 		}
 	}
-	player->Draw(window);
-	
-	
-
+	player->DrawDetails(window);
 	
 	endTurn->Draw(window);
 	
@@ -60,7 +94,7 @@ void Combat::MouseDown(Vector2f m) {
 			player->selectedCharge = c;
 			offsetX = m.x - c->icon.getPosition().x;
 			offsetY = m.y - c->icon.getPosition().y;
-			snapPos = c->icon.getPosition();
+			snapPos = c->restPos;
 		}
 	}
 }
@@ -84,13 +118,14 @@ void Combat::MoveMouse(Vector2f m) {
 
 void Combat::MouseUp(Vector2f m) {
 	if (player->selectedCharge != NULL) {
-		if (highlitGun == NULL) {
-			player->selectedCharge->icon.setPosition(player->handPos[player->selectedCharge->handPos]);
+		if (highlitGun == NULL || player->currentEnergy < player->selectedCharge->getCost()) {
+			player->selectedCharge->icon.setPosition(snapPos);
 		}
 		else {
-			player->selectedCharge->Fire(highlitGun,combatGrid);
+			player->selectedCharge->Fire(highlitGun,combatGrid,player->guns);
 			player->UseCharge(player->selectedCharge);
 			CheckDeaths();
+			UpdateStrings();
 		}
 		player->selectedCharge = NULL;
 	}
@@ -100,6 +135,12 @@ void Combat::MouseUp(Vector2f m) {
 	}
 }
 
+void Combat::UpdateStrings() {
+	deckSize.setString(to_string(player->getDeckSize()));
+	discardSize.setString(to_string(player->getDiscardSize()));
+	energyText.setString(to_string(player->currentEnergy));
+}
+
 void Combat::Update(Time t) {
 	player->Update(t);
 }
@@ -107,21 +148,37 @@ void Combat::Update(Time t) {
 void Combat::AdvanceTurn() {
 	switch (phase) {
 	case PLAYER_SETUP:
+		
 		phase = PLAYER_TURN;
+		player->currentEnergy = player->energyPerTurn;
+		UpdateStrings();
 		break;
 	case PLAYER_TURN:
 		phase = AI_TURN;
+		UpdateStrings();
 		DoAITurn();
 		break;
 	case AI_TURN:
 		phase = PLAYER_TURN;
 		player->drawHand();
+		player->currentEnergy = player->energyPerTurn;
+		UpdateStrings();
 		break;
 	}
 }
 
 void Combat::DoAITurn() {
-
+	int row = 0;
+	for (vector<Tile*> v : combatGrid) {
+		for (Tile* t : v) {
+			if (t->bHasUnit) {
+				Enemy* e = t->getUnit();
+				e->Attack(player->guns[row],player);
+			}
+		}
+		row++;
+	}
+	CheckDeaths();
 	AdvanceTurn();
 }
 
@@ -140,7 +197,11 @@ void Combat::CheckDeaths() {
 			}
 		}
 	}
-	if (deadEnemies.size() == totalEnemies) {
+	if (player->bIsDead) {
+		result = LOSS;
+		cout << "Player LOSES" << endl;
+	}
+	else if (deadEnemies.size() == totalEnemies) {
 		bCombatOver = true;
 		result = WIN;
 		cout << "PLAYER WINS" << endl;
