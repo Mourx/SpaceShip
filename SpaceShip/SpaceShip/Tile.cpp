@@ -15,9 +15,15 @@ Tile::~Tile() {
 
 
 void Tile::setUnit(Enemy* u) {
-	unit = u;
-	unit->setPosition(posX, posY);
-	bHasUnit = true;
+	if (u != NULL) {
+		unit = u;
+		unit->setPosition(posX, posY);
+		bHasUnit = true;
+	}
+	else {
+		unit = NULL;
+		bHasUnit = false;
+	}
 }
 
 Enemy* Tile::getUnit() {

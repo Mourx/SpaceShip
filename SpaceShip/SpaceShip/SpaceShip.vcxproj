@@ -143,23 +143,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BasicCharge.cpp" />
+    <ClCompile Include="Button.cpp" />
     <ClCompile Include="Charge.cpp" />
     <ClCompile Include="Combat.cpp" />
     <ClCompile Include="Dummy.cpp" />
+    <ClCompile Include="EndTurnButton.cpp" />
     <ClCompile Include="Enemy.cpp" />
-    <ClCompile Include="enums.cpp" />
+    <ClCompile Include="enums.h" />
     <ClCompile Include="Gun.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Shield.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="Tile.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Button.h" />
     <ClInclude Include="Charge.h" />
     <ClInclude Include="Combat.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Gun.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Shield.h" />
     <ClInclude Include="Ship.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="values.h" />

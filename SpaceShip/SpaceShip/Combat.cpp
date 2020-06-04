@@ -1,7 +1,7 @@
 #include "Combat.h"
 
 
-Combat::Combat(RenderWindow* w) {
+Combat::Combat(RenderWindow* w,Player* p) {
 	window = w;
 	gridX = 20 + window->getSize().x / 2;
 	for (int i = 0; i < 5; i++) {
@@ -12,11 +12,18 @@ Combat::Combat(RenderWindow* w) {
 		combatGrid.push_back(r);
 	}
 	combatGrid[2][0]->setUnit(new Dummy());
+	totalEnemies = 1;
 	spaceTex.loadFromFile("space.png");
 	space.setTexture(spaceTex);
 	space.setPosition(0, 0);
 
-	player = new Player();
+	backTex.loadFromFile("backGUI.png");
+	backGUI.setTexture(backTex);
+	backGUI.setPosition(0, 500);
+
+	endTurn = new EndTurnButton();
+
+	player = p;
 }
 
 Combat::~Combat() {
@@ -25,18 +32,24 @@ Combat::~Combat() {
 
 void Combat::Draw() {
 	window->draw(space);
+	window->draw(backGUI);
+	for (Gun* g : player->guns) {
+		g->Draw(window);
+	}
 	for (vector<Tile*> v : combatGrid) {
 		for (Tile* t : v) {
 			window->draw(t->icon);
 			if (t->bHasUnit) {
-				window->draw(t->getUnit()->icon);
+				t->getUnit()->Draw(window);
 			}
 		}
 	}
 	player->Draw(window);
-	for (Gun* g : player->guns) {
-		window->draw(g->icon);
-	}
+	
+	
+
+	
+	endTurn->Draw(window);
 	
 }
 
@@ -77,11 +90,64 @@ void Combat::MouseUp(Vector2f m) {
 		else {
 			player->selectedCharge->Fire(highlitGun,combatGrid);
 			player->UseCharge(player->selectedCharge);
+			CheckDeaths();
 		}
 		player->selectedCharge = NULL;
+	}
+	FloatRect bounds = endTurn->icon.getGlobalBounds();
+	if (bounds.contains(m)) {
+		endTurn->OnClick(this);
 	}
 }
 
 void Combat::Update(Time t) {
 	player->Update(t);
+}
+
+void Combat::AdvanceTurn() {
+	switch (phase) {
+	case PLAYER_SETUP:
+		phase = PLAYER_TURN;
+		break;
+	case PLAYER_TURN:
+		phase = AI_TURN;
+		DoAITurn();
+		break;
+	case AI_TURN:
+		phase = PLAYER_TURN;
+		player->drawHand();
+		break;
+	}
+}
+
+void Combat::DoAITurn() {
+
+	AdvanceTurn();
+}
+
+void Combat::CheckDeaths() {
+	for (vector<Tile*> v : combatGrid) {
+		for (Tile* t : v) {
+			if (t->bHasUnit) {
+				Enemy* e = t->getUnit();
+				if (e->bIsDead) {
+					player->money += e->bounty;
+					e->setPosition(-150, -150);
+					deadEnemies.push_back(e);
+					t->setUnit(NULL);
+
+				}
+			}
+		}
+	}
+	if (deadEnemies.size() == totalEnemies) {
+		bCombatOver = true;
+		result = WIN;
+		cout << "PLAYER WINS" << endl;
+	}
+}
+
+GAME_RESULT Combat::CheckGameOver() {
+
+	return result;
 }

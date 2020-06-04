@@ -26,6 +26,7 @@ void BasicCharge::Fire(Gun* g, vector<vector<Tile*>> grid) {
 			Enemy* e = t->getUnit();
 			std::string s = e->getName();
 			cout << "Name: " << s << ", Health: " << e->getHealth() << endl;
+			e->Damage(damage);
 			//deal damage
 		}
 	}

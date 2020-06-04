@@ -1,9 +1,0 @@
-#pragma once
-
-enum COMBAT_STEP {
-	PLAYER_SETUP,
-	PLAYER_TURN,
-	PLAYER_DAMAGE,
-	AI_TURN,
-	AI_DAMAGE
-};

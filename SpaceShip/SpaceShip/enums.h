@@ -1,0 +1,20 @@
+#pragma once
+
+enum COMBAT_STEP {
+	PLAYER_SETUP,
+	PLAYER_TURN,
+	AI_TURN,
+};
+
+enum GAME_SCREEN {
+	MAIN_MENU,
+	COMBAT,
+	REWARD_SCREEN,
+	LOSS_SCREEN
+};
+
+enum GAME_RESULT {
+	ACTIVE,
+	WIN,
+	LOSS
+};
