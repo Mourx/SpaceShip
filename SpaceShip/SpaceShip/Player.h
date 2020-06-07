@@ -28,6 +28,7 @@ public:
 	vector<Vector2f> handPos;
 	void drawHand();
 	void Damage(int dmg);
+	void AddCharge(Charge* c);
 	Sprite healthIcon;
 	Text healthText;
 	int money;

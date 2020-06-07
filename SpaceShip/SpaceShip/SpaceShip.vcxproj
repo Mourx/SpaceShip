@@ -146,6 +146,7 @@
     <ClCompile Include="BasicShield.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="Charge.cpp" />
+    <ClCompile Include="ChargeFactory.cpp" />
     <ClCompile Include="Combat.cpp" />
     <ClCompile Include="Dummy.cpp" />
     <ClCompile Include="EndTurnButton.cpp" />
@@ -162,6 +163,7 @@
   <ItemGroup>
     <ClInclude Include="Button.h" />
     <ClInclude Include="Charge.h" />
+    <ClInclude Include="ChargeFactory.h" />
     <ClInclude Include="Combat.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Gun.h" />

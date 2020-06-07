@@ -6,7 +6,9 @@
 class Gun;
 using namespace sf;
 using namespace std;
-class Charge
+
+
+class Charge 
 {
 public:
 	Charge();
@@ -16,6 +18,7 @@ public:
 	virtual void StartTimer(Time t) {};
 	virtual void Draw(RenderWindow* w);
 	int getCost() { return cost; };
+	static Charge* Create() { return new Charge(); };
 	Sprite icon;
 	Sprite chargeEffect;
 	int handPos = 0;
@@ -36,6 +39,7 @@ class BasicCharge : public Charge {
 public:
 	BasicCharge();
 	~BasicCharge();
+	static Charge* Create() { return new BasicCharge(); };
 	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
 
 };
@@ -44,6 +48,7 @@ class BasicShield : public Charge {
 public:
 	BasicShield();
 	~BasicShield();
+	static Charge* Create() { return new BasicShield(); };
 	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
 
 };

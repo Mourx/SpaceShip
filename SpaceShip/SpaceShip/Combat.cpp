@@ -4,6 +4,7 @@
 Combat::Combat(RenderWindow* w,Player* p) {
 	window = w;
 	player = p;
+	player->loadDeck();
 	gridX = 20 + window->getSize().x / 2;
 	for (int i = 0; i < 5; i++) {
 		vector<Tile*> r;

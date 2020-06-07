@@ -19,6 +19,17 @@ enum GAME_RESULT {
 	LOSS
 };
 
+enum REWARD_STATE {
+	PICKING,
+	PICKED
+};
+
+enum ChargeRarity {
+	COMMON,
+	UNCOMMON,
+	RARE
+};
+
 enum COMMON_CHARGES {
 	BASIC_CHARGE,
 	BASIC_SHIELD

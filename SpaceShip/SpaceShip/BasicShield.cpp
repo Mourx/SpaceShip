@@ -18,3 +18,4 @@ BasicShield::~BasicShield() {
 void BasicShield::Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns) {
 	g->shield->Boost(damage);
 }
+

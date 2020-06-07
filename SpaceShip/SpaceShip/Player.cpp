@@ -33,7 +33,7 @@ Player::Player() {
 	chargeDeck.push_back(new BasicShield());
 	chargeDeck.push_back(new BasicShield());
 	std::random_shuffle(deck.begin(), deck.end());
-	loadDeck();
+
 
 	
 }
@@ -75,7 +75,11 @@ void Player::initGuns() {
 }
 
 void Player::loadDeck() {
+	discard.clear();
+	deck.clear();
+	hand.clear();
 	deck = chargeDeck;
+	std::random_shuffle(deck.begin(), deck.end());
 	drawHand();
 }
 
@@ -164,4 +168,8 @@ int Player::getDeckSize() {
 
 int Player::getDiscardSize() {
 	return discard.size();
+}
+
+void Player::AddCharge(Charge* c) {
+	chargeDeck.push_back(c);
 }
