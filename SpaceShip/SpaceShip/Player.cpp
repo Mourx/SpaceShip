@@ -29,7 +29,7 @@ Player::Player() {
 	initGuns();
 	chargeDeck.push_back(new BasicCharge());
 	chargeDeck.push_back(new BasicCharge());
-	chargeDeck.push_back(new BasicCharge());
+	chargeDeck.push_back(new EasyBomb());
 	chargeDeck.push_back(new BasicShield());
 	chargeDeck.push_back(new BasicShield());
 	std::random_shuffle(deck.begin(), deck.end());
@@ -171,5 +171,13 @@ int Player::getDiscardSize() {
 }
 
 void Player::AddCharge(Charge* c) {
+	c->icon.setScale(1, 1);
 	chargeDeck.push_back(c);
+}
+
+void Player::discardHand() {
+	for (Charge* c : hand) {
+		discard.push_back(c);
+	}
+	hand.clear();
 }

@@ -5,6 +5,7 @@
 #include "RewardScreen.h"
 
 int main() {
+	srand(std::time(nullptr));
 	GAME_SCREEN gameScreen = REWARD_SCREEN;
 	GAME_RESULT result;
 	REWARD_STATE picking;

@@ -4,7 +4,7 @@
 Dummy::Dummy() : Enemy(){
 	
 	name = "Dummy";
-	health = 10;
+	health = 100;
 	damage = 10;
 	ship = new Ship();
 	iconTex.loadFromFile("enemyA.png");

@@ -19,6 +19,7 @@ public:
 	void loadDeck();
 	void DrawBackground(RenderWindow* w);
 	void DrawDetails(RenderWindow* w);
+	void discardHand();
 	vector<Charge*> getHand();
 	Charge* selectedCharge = NULL;
 	Gun* selectedGun = NULL;

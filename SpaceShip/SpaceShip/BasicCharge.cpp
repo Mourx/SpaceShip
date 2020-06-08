@@ -1,11 +1,11 @@
 #include "Charge.h"
 
 BasicCharge::BasicCharge() {
-	chargeTex.loadFromFile("basicCharge.png");
+	chargeTex.loadFromFile("Textures/charges/basicCharge.png");
 	icon.setTexture(chargeTex);
 	icon.setScale(1, 1);
 
-	chargeEffTex.loadFromFile("chargeEffect.png");
+	chargeEffTex.loadFromFile("Textures/charges/chargeEffect.png");
 	chargeEffect.setTexture(chargeEffTex);
 
 	damage = 5;

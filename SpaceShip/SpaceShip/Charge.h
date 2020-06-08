@@ -52,3 +52,19 @@ public:
 	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
 
 };
+
+class EasyBomb : public Charge {
+public:
+	EasyBomb();
+	~EasyBomb();
+	static Charge* Create() { return new EasyBomb(); };
+	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
+};
+
+class WideShield : public Charge {
+public:
+	WideShield();
+	~WideShield();
+	static Charge* Create() { return new WideShield(); };
+	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
+};

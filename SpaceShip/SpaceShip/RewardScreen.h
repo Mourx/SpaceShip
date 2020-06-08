@@ -22,5 +22,9 @@ private:
 	RenderWindow* window;
 	vector<Charge*> options;
 	ChargeFactory fact;
+	Sprite space;
+	Texture spaceTex;
+	Sprite prompt;
+	Texture promptTex;
 };
 

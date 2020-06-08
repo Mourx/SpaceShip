@@ -149,6 +149,7 @@
     <ClCompile Include="ChargeFactory.cpp" />
     <ClCompile Include="Combat.cpp" />
     <ClCompile Include="Dummy.cpp" />
+    <ClCompile Include="EasyBomb.cpp" />
     <ClCompile Include="EndTurnButton.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="enums.h" />
@@ -159,6 +160,7 @@
     <ClCompile Include="Shield.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="WideShield.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Button.h" />

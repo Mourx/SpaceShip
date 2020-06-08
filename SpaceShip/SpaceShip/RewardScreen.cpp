@@ -15,10 +15,17 @@ RewardScreen::RewardScreen(RenderWindow* w,Player* p, bool bBoss) {
 		else {
 			opt = fact.GenerateCharge(RARE);
 		}
-		opt->icon.setPosition(250 + 60 * i, 300);
+		opt->icon.setPosition(250 + 120 * i, 200);
+		opt->icon.setScale(2, 2);
 		options.push_back(opt);
 	}
+	spaceTex.loadFromFile("space.png");
+	space.setTexture(spaceTex);
+	space.setPosition(0, 0);
 
+	promptTex.loadFromFile("rewardPrompt.png");
+	prompt.setTexture(promptTex);
+	prompt.setPosition(300, 50);
 }
 
 RewardScreen::~RewardScreen() {
@@ -27,7 +34,8 @@ RewardScreen::~RewardScreen() {
 
 
 void RewardScreen::Draw() {
-
+	window->draw(space);
+	window->draw(prompt);
 	for (Charge* c : options) {
 		c->Draw(window);
 	}

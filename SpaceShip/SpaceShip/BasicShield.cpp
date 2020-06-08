@@ -2,12 +2,12 @@
 
 
 BasicShield::BasicShield() {
-	chargeTex.loadFromFile("basicShield.png");
+	chargeTex.loadFromFile("Textures/charges/basicShield.png");
 	icon.setTexture(chargeTex);
 	icon.setScale(1, 1);
 	damage = 10;
 	cost = 1;
-	chargeEffTex.loadFromFile("chargeEffect.png");
+	chargeEffTex.loadFromFile("Textures/charges/chargeEffect.png");
 	chargeEffect.setTexture(chargeEffTex);
 }
 

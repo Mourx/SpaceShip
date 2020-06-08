@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Charges">
+      <UniqueIdentifier>{5c885d62-65b2-48e0-bde6-c7a2a840572c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Charges\Common">
+      <UniqueIdentifier>{7d04b7d2-cda0-4bcd-a2c7-89c9c011f88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Charges\Uncommon">
+      <UniqueIdentifier>{901a4d66-5d34-473d-9700-a202d058d3d9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -39,9 +48,6 @@
     <ClCompile Include="Enemy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BasicCharge.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Dummy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -57,14 +63,23 @@
     <ClCompile Include="Shield.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BasicShield.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="RewardScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ChargeFactory.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicCharge.cpp">
+      <Filter>Source Files\Charges\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicShield.cpp">
+      <Filter>Source Files\Charges\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyBomb.cpp">
+      <Filter>Source Files\Charges\Uncommon</Filter>
+    </ClCompile>
+    <ClCompile Include="WideShield.cpp">
+      <Filter>Source Files\Charges\Uncommon</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

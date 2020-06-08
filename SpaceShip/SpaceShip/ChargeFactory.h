@@ -16,8 +16,8 @@ class ChargeFactory
 
 			CreateCharge createUncommon[] =
 			{
-				BasicCharge::Create,
-				BasicShield::Create
+				EasyBomb::Create,
+				WideShield::Create
 
 			};
 			const int countUnc = sizeof(createUncommon) / sizeof(*createUncommon);
@@ -37,8 +37,7 @@ class ChargeFactory
 				return createCommon[rand() % countCom]();
 				break;
 			case UNCOMMON:
-				
-				return createUncommon[rand() % countUnc]();
+				return  createUncommon[rand() % countUnc]();
 				break;
 			case RARE:
 				return createRare[rand() % countRare]();

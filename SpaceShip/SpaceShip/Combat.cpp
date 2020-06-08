@@ -156,6 +156,7 @@ void Combat::AdvanceTurn() {
 		break;
 	case PLAYER_TURN:
 		phase = AI_TURN;
+		player->discardHand();
 		UpdateStrings();
 		DoAITurn();
 		break;
