@@ -160,6 +160,7 @@
     <ClCompile Include="Shield.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="TitleScreen.cpp" />
     <ClCompile Include="WideShield.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -174,6 +175,7 @@
     <ClInclude Include="Shield.h" />
     <ClInclude Include="Ship.h" />
     <ClInclude Include="Tile.h" />
+    <ClInclude Include="TitleScreen.h" />
     <ClInclude Include="values.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

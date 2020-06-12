@@ -3,14 +3,17 @@
 #include "values.h"
 #include "Combat.h"
 #include "RewardScreen.h"
+#include "TitleScreen.h"
 
 int main() {
 	srand(std::time(nullptr));
-	GAME_SCREEN gameScreen = REWARD_SCREEN;
+	GAME_SCREEN gameScreen = MAIN_MENU;
 	GAME_RESULT result;
 	REWARD_STATE picking;
+	
 	sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "SFML works!");
 	Player* player = new Player();
+	TitleScreen* mainMenu = new TitleScreen(&window,player);
 	Combat* combat = new Combat(&window,player);
 	RewardScreen* reward = new RewardScreen(&window,player,false);
 	sf::Clock clock;
@@ -25,6 +28,7 @@ int main() {
 			{
 				if (event.type == sf::Event::Closed) window.close();
 			}
+			mainMenu->Draw();
 		}
 		if (gameScreen == REWARD_SCREEN) {
 			while (window.pollEvent(event))
