@@ -27,6 +27,18 @@ int main() {
 			while (window.pollEvent(event))
 			{
 				if (event.type == sf::Event::Closed) window.close();
+				if (event.type == sf::Event::MouseButtonPressed) {
+					Vector2f m = window.mapPixelToCoords(sf::Mouse::getPosition(window));
+					mainMenu->MouseDown(m);
+				}
+			}
+			switch (mainMenu->getState()) {
+			case WAITING:
+				break;
+			case START:
+				combat = new Combat(&window, player);
+				gameScreen = COMBAT;
+				break;
 			}
 			mainMenu->Draw();
 		}

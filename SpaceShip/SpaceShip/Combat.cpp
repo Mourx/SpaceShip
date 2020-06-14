@@ -15,22 +15,22 @@ Combat::Combat(RenderWindow* w,Player* p) {
 	}
 	combatGrid[2][0]->setUnit(new Dummy());
 	totalEnemies = 1;
-	spaceTex.loadFromFile("space.png");
+	spaceTex.loadFromFile("Textures/general/space.png");
 	space.setTexture(spaceTex);
 	space.setPosition(0, 0);
 
 	font.loadFromFile("arial.ttf");
 
-	backTex.loadFromFile("backGUI.png");
+	backTex.loadFromFile("Textures/combat/backGUI.png");
 	backGUI.setTexture(backTex);
 	backGUI.setPosition(0, 500);
 
-	deckTex.loadFromFile("deck.png");
+	deckTex.loadFromFile("Textures/combat/deck.png");
 	deck.setTexture(deckTex);
 	deck.setPosition(30, 630);
 	deckSize.setPosition(deck.getPosition().x+15,deck.getPosition().y+8);
 
-	discardTex.loadFromFile("discard.png");
+	discardTex.loadFromFile("Textures/combat/discard.png");
 	discard.setTexture(discardTex);
 	discard.setPosition(720, 630);
 	discardSize.setPosition(discard.getPosition().x + 15, discard.getPosition().y + 8);
@@ -43,7 +43,7 @@ Combat::Combat(RenderWindow* w,Player* p) {
 	deckSize.setString(to_string(player->getDeckSize()));
 	discardSize.setString(to_string(player->getDiscardSize()));
 
-	energyTex.loadFromFile("energy.png");
+	energyTex.loadFromFile("Textures/combat/energy.png");
 	energy.setTexture(energyTex);
 	energy.setPosition(15, 680);
 	energy.setScale(2, 2);

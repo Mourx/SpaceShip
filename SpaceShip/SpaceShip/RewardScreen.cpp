@@ -19,7 +19,7 @@ RewardScreen::RewardScreen(RenderWindow* w,Player* p, bool bBoss) {
 		opt->icon.setScale(2, 2);
 		options.push_back(opt);
 	}
-	spaceTex.loadFromFile("space.png");
+	spaceTex.loadFromFile("Textures/general/space.png");
 	space.setTexture(spaceTex);
 	space.setPosition(0, 0);
 

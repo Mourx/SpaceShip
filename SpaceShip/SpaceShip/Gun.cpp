@@ -2,7 +2,7 @@
 
 
 Gun::Gun() {
-	gunTex.loadFromFile("gunA.png");
+	gunTex.loadFromFile("Textures/combat/gunA.png");
 	icon.setTexture(gunTex);
 	icon.setScale(1.1, 1.1);
 	shield = new Shield();

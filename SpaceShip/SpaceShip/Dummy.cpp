@@ -7,7 +7,7 @@ Dummy::Dummy() : Enemy(){
 	health = 100;
 	damage = 10;
 	ship = new Ship();
-	iconTex.loadFromFile("enemyA.png");
+	iconTex.loadFromFile("Textures/combat/enemyA.png");
 	icon.setTexture(iconTex);
 	font.loadFromFile("arial.ttf");
 	String attack = std::to_string(damage);

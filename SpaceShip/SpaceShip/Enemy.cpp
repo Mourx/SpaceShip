@@ -6,7 +6,7 @@ Enemy::Enemy() {
 	health = 0;
 	damage = 0;
 	ship = new Ship();
-	iconTex.loadFromFile("enemyA.png");
+	iconTex.loadFromFile("Textures/combat/enemyA.png");
 	icon.setTexture(iconTex);
 	font.loadFromFile("arial.ttf");
 
@@ -16,8 +16,8 @@ Enemy::Enemy() {
 	healthText.setFont(font);
 	healthText.setCharacterSize(12);
 
-	attackTex.loadFromFile("attack.png");
-	healthTex.loadFromFile("health.png");
+	attackTex.loadFromFile("Textures/combat/attack.png");
+	healthTex.loadFromFile("Textures/combat/health.png");
 	attackIcon.setTexture(attackTex);
 	healthIcon.setTexture(healthTex);
 	attackIcon.setScale(0.5, 0.5);

@@ -2,14 +2,14 @@
 
 
 Shield::Shield() {
-	shieldTex.loadFromFile("shield.png");
+	shieldTex.loadFromFile("Textures/combat/shield.png");
 	icon.setTexture(shieldTex);
 	icon.setScale(1.5, 1.5);
 
 	health = 0;
 
 	font.loadFromFile("arial.ttf");
-	healthTex.loadFromFile("health.png");
+	healthTex.loadFromFile("Textures/combat/health.png");
 	healthIcon.setTexture(healthTex);
 	healthIcon.setPosition(icon.getPosition().x - 50, icon.getPosition().y+20);
 	String hp = std::to_string(health);

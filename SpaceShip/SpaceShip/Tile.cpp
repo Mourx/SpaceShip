@@ -4,7 +4,7 @@
 Tile::Tile(float x, float y) {
 	posX = x;
 	posY = y;
-	tileTex.loadFromFile("tile.png");
+	tileTex.loadFromFile("Textures/combat/tile.png");
 	icon.setTexture(tileTex);
 	icon.setPosition(posX, posY);
 }

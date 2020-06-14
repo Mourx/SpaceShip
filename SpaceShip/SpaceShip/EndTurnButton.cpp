@@ -1,7 +1,7 @@
 #include "Button.h"
 
 EndTurnButton::EndTurnButton() {
-	buttTex.loadFromFile("endTurn.png");
+	buttTex.loadFromFile("Textures/combat/endTurn.png");
 	icon.setTexture(buttTex);
 	icon.setPosition(700, 700);
 }

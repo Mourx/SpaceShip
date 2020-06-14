@@ -3,7 +3,7 @@
 using namespace std;
 
 Player::Player() {
-	playerTex.loadFromFile("playerA.png");
+	playerTex.loadFromFile("Textures/combat/playerA.png");
 	icon.setTexture(playerTex);
 	icon.setPosition(-10, 60);
 	icon.setScale(7, 9);
@@ -17,7 +17,7 @@ Player::Player() {
 	gunPos.push_back(Vector2f(295, 419));
 
 	font.loadFromFile("arial.ttf");
-	healthTex.loadFromFile("health.png");
+	healthTex.loadFromFile("Textures/combat/health.png");
 	healthIcon.setTexture(healthTex);
 	healthIcon.setPosition(150, 530);
 	String hp = std::to_string(health);

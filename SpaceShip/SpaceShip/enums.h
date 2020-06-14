@@ -1,5 +1,10 @@
 #pragma once
 
+enum MENU_STATE {
+	WAITING,
+	START
+};
+
 enum COMBAT_STEP {
 	PLAYER_SETUP,
 	PLAYER_TURN,
