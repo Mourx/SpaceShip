@@ -75,6 +75,9 @@ void Player::initGuns() {
 }
 
 void Player::loadDeck() {
+	for (Gun* g : guns) {
+		g->shield->Reset();
+	}
 	discard.clear();
 	deck.clear();
 	hand.clear();
@@ -177,6 +180,7 @@ void Player::AddCharge(Charge* c) {
 
 void Player::discardHand() {
 	for (Charge* c : hand) {
+		c->icon.setPosition(-150, -150);
 		discard.push_back(c);
 	}
 	hand.clear();

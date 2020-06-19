@@ -1,2 +1,16 @@
-﻿  Dummy.cpp
+﻿  Player.cpp
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(123): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(134): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(143): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(146): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(166): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(170): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   SpaceShip.vcxproj -> C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\x64\Debug\SpaceShip.exe

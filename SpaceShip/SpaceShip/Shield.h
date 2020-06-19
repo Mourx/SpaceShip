@@ -10,6 +10,7 @@ public:
 	void Draw(RenderWindow* w);
 	void Boost(int boost);
 	int Damage(int dmg);
+	void Reset();
 	Sprite icon;
 	Text healthText;
 	Sprite healthIcon;

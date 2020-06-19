@@ -61,3 +61,8 @@ void Shield::Boost(int boost) {
 	String hp = std::to_string(health);
 	healthText.setString(hp);
 }
+
+void Shield::Reset() {
+	health = 0;
+	bIsActive = false;
+}

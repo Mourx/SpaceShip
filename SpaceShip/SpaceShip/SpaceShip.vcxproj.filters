@@ -90,6 +90,12 @@
     <ClCompile Include="StageSelect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StagePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StageType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Combat.h">
@@ -132,6 +138,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="StageSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StagePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StageType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
