@@ -1,31 +1,28 @@
 #include "StageType.h"
 
 
-StageType::StageType(STAGE_TYPE t,bool bStartNode,bool bEndNode) {
+StageType::StageType(STAGE_TYPE t) {
 	type = t;
 	switch (type) {
 	case COMBAT:
 		//generate Encounter
-
+		tex.loadFromFile("Textures/stageSelect/combatEncounter.png");
 		break;
 	case SHOP:
 		//generate shop contents
-
+		tex.loadFromFile("Textures/stageSelect/shop.png");
 		break;
 	case TREASURE:
 		//generate treasure type
-
+		tex.loadFromFile("Textures/stageSelect/treasure.png");
 		break;
+	case BOSS:
+		tex.loadFromFile("Textures/stageSelect/boss.png");
+		break;
+
 	}
-	if (bStartNode) {
-		paths = 2;
-	}
-	else if (!bEndNode) {
-		paths = rand() % 2 + 1;
-	}
-	else {
-		paths = 0;
-	}
+	icon.setTexture(tex);
+
 }
 
 StageType::~StageType() {
@@ -34,8 +31,4 @@ StageType::~StageType() {
 
 STAGE_TYPE StageType::GetType() {
 	return type;
-}
-
-int StageType::getPaths() {
-	return paths;
 }

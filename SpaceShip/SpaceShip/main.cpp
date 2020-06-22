@@ -4,18 +4,22 @@
 #include "Combat.h"
 #include "RewardScreen.h"
 #include "TitleScreen.h"
-
+#include "StagePath.h"
 int main() {
 	srand(std::time(nullptr));
-	GAME_SCREEN gameScreen = MAIN_MENU;
+	GAME_SCREEN gameScreen = STAGE_SELECT;
 	GAME_RESULT result;
 	REWARD_STATE picking;
 	
 	sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "SFML works!");
+	Texture tex;
+	tex.loadFromFile("Textures/combat/shipA.png");
+	window.setIcon(tex);
 	Player* player = new Player();
 	TitleScreen* mainMenu = new TitleScreen(&window,player);
 	Combat* combat = new Combat(&window,player);
 	RewardScreen* reward = new RewardScreen(&window,player,false);
+	StagePath* path = new StagePath(&window);
 	sf::Clock clock;
 	while (window.isOpen()) {
 		sf::Time elapsed = clock.restart();
@@ -37,7 +41,7 @@ int main() {
 				break;
 			case START:
 				combat = new Combat(&window, player);
-				gameScreen = COMBAT;
+				gameScreen = COMBAT_SCREEN;
 				break;
 			}
 			mainMenu->Draw();
@@ -65,7 +69,7 @@ int main() {
 			case PICKING:
 				break;
 			case PICKED:
-				gameScreen = COMBAT;
+				gameScreen = COMBAT_SCREEN;
 				picking = PICKING;
 				combat = new Combat(&window, player);
 				//make new reward
@@ -79,7 +83,7 @@ int main() {
 				if (event.type == sf::Event::Closed) window.close();
 			}
 		}
-		if (gameScreen == COMBAT) {
+		if (gameScreen == COMBAT_SCREEN) {
 			while (window.pollEvent(event))
 			{
 				if (event.type == sf::Event::Closed) window.close();
@@ -113,6 +117,13 @@ int main() {
 				gameScreen = LOSS_SCREEN;
 				break;
 			}
+		}
+		if (gameScreen == STAGE_SELECT) {
+			while (window.pollEvent(event))
+			{
+				if (event.type == sf::Event::Closed) window.close();
+			}
+			path->Draw();
 		}
 		window.display();
 	}
