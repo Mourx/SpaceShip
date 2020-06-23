@@ -1,8 +1,20 @@
 #include "StagePath.h"
 
-StagePath::StagePath(RenderWindow* window) {
+StagePath::StagePath(RenderWindow* window, Player* p) {
 	w = window;
+	p = player;
 	GeneratePath();
+	spaceTex.loadFromFile("Textures/general/space.png");
+	space.setTexture(spaceTex);
+	space.setPosition(0, 0);
+	if (completed.loadFromFile("Textures/shaders/completed.vert", Shader::Vertex)) {
+		
+		cout << "Shading!" << endl;
+	}
+	available.loadFromFile("Textures/shaders/available.vert", Shader::Vertex);
+	unavailable.loadFromFile("Textures/shaders/unavailable.vert", Shader::Vertex);
+	mouseOver.loadFromFile("Textures/shaders/mouseOver.vert", Shader::Vertex);
+
 }
 
 
@@ -51,9 +63,46 @@ void StagePath::GeneratePath() {
 }
 
 void StagePath::Draw() {
-	for (vector<StageType*> v : stages) {
-		for (StageType* s : v) {
-			w->draw(s->icon);
+	w->draw(space);
+	for (int i = 0; i < stages.size();i++) {
+		for (StageType* s : stages[i]) {
+			if (s == hoverStage) {
+				w->draw(s->icon, &mouseOver);
+			}
+			else if (i < currentTier) {
+				w->draw(s->icon, &completed);
+			}
+			else if (i == currentTier) {
+				w->draw(s->icon,&available);
+			}
+			else {
+				w->draw(s->icon,&unavailable);
+			}
 		}
 	}
+}
+
+
+void StagePath::MouseDown(Vector2f m) {
+
+}
+
+void StagePath::MouseUp(Vector2f m) {
+
+}
+
+void StagePath::MoveMouse(Vector2f m) {
+	hoverStage = NULL;
+	for (int i = 0; i < stages.size(); i++) {
+		for (StageType* s : stages[i]) {
+			FloatRect bounds = s->icon.getGlobalBounds();
+			if (bounds.contains(m)) {
+				hoverStage = s;
+			}
+		}
+	}
+}
+
+void StagePath::Update(Time t) {
+
 }

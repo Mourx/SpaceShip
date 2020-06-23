@@ -1,25 +1,25 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include <SFML/OpenGL.hpp>
 #include "values.h"
 #include "Combat.h"
 #include "RewardScreen.h"
 #include "TitleScreen.h"
 #include "StagePath.h"
+
 int main() {
 	srand(std::time(nullptr));
 	GAME_SCREEN gameScreen = STAGE_SELECT;
 	GAME_RESULT result;
 	REWARD_STATE picking;
 	
-	sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "SFML works!");
-	Texture tex;
-	tex.loadFromFile("Textures/combat/shipA.png");
-	window.setIcon(tex);
+	sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "SpaceShip Adventures in SPACE! But NOT in time >:( ");
+	window.setIcon(icon_ship.width,icon_ship.height,icon_ship.pixel_data);
 	Player* player = new Player();
 	TitleScreen* mainMenu = new TitleScreen(&window,player);
 	Combat* combat = new Combat(&window,player);
 	RewardScreen* reward = new RewardScreen(&window,player,false);
-	StagePath* path = new StagePath(&window);
+	StagePath* path = new StagePath(&window,player);
 	sf::Clock clock;
 	while (window.isOpen()) {
 		sf::Time elapsed = clock.restart();
@@ -122,6 +122,18 @@ int main() {
 			while (window.pollEvent(event))
 			{
 				if (event.type == sf::Event::Closed) window.close();
+				if (event.type == sf::Event::MouseButtonPressed) {
+					Vector2f m = window.mapPixelToCoords(sf::Mouse::getPosition(window));
+					path->MouseDown(m);
+				}
+				if (event.type == sf::Event::MouseButtonReleased) {
+					Vector2f m = window.mapPixelToCoords(sf::Mouse::getPosition(window));
+					path->MouseUp(m);
+				}
+				if (event.type == sf::Event::MouseMoved) {
+					Vector2f m = window.mapPixelToCoords(sf::Mouse::getPosition(window));
+					path->MoveMouse(m);
+				}
 			}
 			path->Draw();
 		}
