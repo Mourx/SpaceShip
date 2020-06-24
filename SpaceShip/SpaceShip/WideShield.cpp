@@ -8,6 +8,7 @@ WideShield::WideShield() {
 	damage = 7;
 	cost = 2;
 	effectTime = 500000;
+	
 }
 
 WideShield::~WideShield() {

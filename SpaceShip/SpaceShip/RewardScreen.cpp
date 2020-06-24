@@ -23,9 +23,14 @@ RewardScreen::RewardScreen(RenderWindow* w,Player* p, bool bBoss) {
 	space.setTexture(spaceTex);
 	space.setPosition(0, 0);
 
-	promptTex.loadFromFile("rewardPrompt.png");
+	promptTex.loadFromFile("Textures/rewards/rewardPrompt.png");
 	prompt.setTexture(promptTex);
 	prompt.setPosition(300, 50);
+
+
+	skipTex.loadFromFile("Textures/rewards/skip.png");
+	skip.setTexture(skipTex);
+	skip.setPosition(300, 550);
 }
 
 RewardScreen::~RewardScreen() {
@@ -36,6 +41,7 @@ RewardScreen::~RewardScreen() {
 void RewardScreen::Draw() {
 	window->draw(space);
 	window->draw(prompt);
+	window->draw(skip);
 	for (Charge* c : options) {
 		c->Draw(window);
 	}
@@ -60,6 +66,10 @@ void RewardScreen::MouseUp(Vector2f m) {
 			player->selectedCharge = NULL;
 			phase = PICKED;
 		}
+	}
+	FloatRect bounds = skip.getGlobalBounds();
+	if (bounds.contains(m)) {
+		phase = PICKED;
 	}
 	
 	

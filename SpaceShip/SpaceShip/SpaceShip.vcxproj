@@ -160,7 +160,6 @@
     <ClCompile Include="Shield.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="StagePath.cpp" />
-    <ClCompile Include="StageSelect.cpp" />
     <ClCompile Include="StageType.cpp" />
     <ClCompile Include="StartGameButton.cpp" />
     <ClCompile Include="Tile.cpp" />
@@ -179,7 +178,6 @@
     <ClInclude Include="Shield.h" />
     <ClInclude Include="Ship.h" />
     <ClInclude Include="StagePath.h" />
-    <ClInclude Include="StageSelect.h" />
     <ClInclude Include="StageType.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="TitleScreen.h" />

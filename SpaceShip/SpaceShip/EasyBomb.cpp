@@ -11,6 +11,7 @@ EasyBomb::EasyBomb() {
 	damage = 10;
 	cost = 2;
 	effectTime = 500000;
+	effectShade.loadFromFile("Textures/shaders/effectShade.vert", Shader::Vertex);
 }
 EasyBomb::~EasyBomb() {
 

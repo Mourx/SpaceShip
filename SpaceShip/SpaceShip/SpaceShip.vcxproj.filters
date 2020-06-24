@@ -22,12 +22,21 @@
     <Filter Include="Source Files\Charges\Uncommon">
       <UniqueIdentifier>{901a4d66-5d34-473d-9700-a202d058d3d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Enemies">
+      <UniqueIdentifier>{00188b2b-b33e-4218-a9aa-4f8f2581643b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens">
+      <UniqueIdentifier>{89f36c0d-c46c-4c26-8ed4-cbb9460e6553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Charges">
+      <UniqueIdentifier>{bf89631c-a022-42aa-9411-308ddb758a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{b51574d3-cd3e-4f44-a232-da419cb0edfe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Combat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
@@ -39,16 +48,7 @@
     <ClCompile Include="Gun.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Charge.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Tile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Dummy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Button.cpp">
@@ -63,12 +63,6 @@
     <ClCompile Include="Shield.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RewardScreen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ChargeFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="BasicCharge.cpp">
       <Filter>Source Files\Charges\Common</Filter>
     </ClCompile>
@@ -81,26 +75,38 @@
     <ClCompile Include="WideShield.cpp">
       <Filter>Source Files\Charges\Uncommon</Filter>
     </ClCompile>
-    <ClCompile Include="TitleScreen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="StartGameButton.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StageSelect.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StagePath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="StageType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Dummy.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Charge.cpp">
+      <Filter>Source Files\Charges</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeFactory.cpp">
+      <Filter>Source Files\Charges</Filter>
+    </ClCompile>
+    <ClCompile Include="Combat.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="RewardScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="StagePath.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Combat.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -108,9 +114,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Gun.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Charge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Tile.h">
@@ -128,23 +131,26 @@
     <ClInclude Include="Shield.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RewardScreen.h">
+    <ClInclude Include="StageType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ChargeFactory.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Charges</Filter>
     </ClInclude>
-    <ClInclude Include="TitleScreen.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Charge.h">
+      <Filter>Header Files\Charges</Filter>
     </ClInclude>
-    <ClInclude Include="StageSelect.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="RewardScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Combat.h">
+      <Filter>Header Files\Screens</Filter>
     </ClInclude>
     <ClInclude Include="StagePath.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="StageType.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>Header Files\Screens</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

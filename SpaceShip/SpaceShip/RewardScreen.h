@@ -26,5 +26,7 @@ private:
 	Texture spaceTex;
 	Sprite prompt;
 	Texture promptTex;
+	Sprite skip;
+	Texture skipTex;
 };
 
