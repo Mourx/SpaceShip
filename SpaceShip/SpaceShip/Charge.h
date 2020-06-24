@@ -17,6 +17,7 @@ public:
 	virtual void Update(Time t);
 	virtual void StartTimer(Time t) {};
 	virtual void Draw(RenderWindow* w);
+	virtual bool CheckAnimation() { return bEffectVisible; }
 	int getCost() { return cost; };
 	static Charge* Create() { return new Charge(); };
 	Sprite icon;
@@ -32,6 +33,7 @@ protected:
 	float timer;
 	float effectTime = 0;
 	bool bEffectVisible = false;
+	Shader effectShade;
 };
 
 
@@ -41,6 +43,7 @@ public:
 	~BasicCharge();
 	static Charge* Create() { return new BasicCharge(); };
 	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
+	bool CheckAnimation() { return bEffectVisible; }
 
 };
 
@@ -50,7 +53,7 @@ public:
 	~BasicShield();
 	static Charge* Create() { return new BasicShield(); };
 	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
-
+	bool CheckAnimation() { return bEffectVisible; }
 };
 
 class EasyBomb : public Charge {
@@ -59,6 +62,7 @@ public:
 	~EasyBomb();
 	static Charge* Create() { return new EasyBomb(); };
 	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
+	bool CheckAnimation() { return bEffectVisible; }
 };
 
 class WideShield : public Charge {
@@ -67,4 +71,5 @@ public:
 	~WideShield();
 	static Charge* Create() { return new WideShield(); };
 	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
+	bool CheckAnimation() { return bEffectVisible; }
 };

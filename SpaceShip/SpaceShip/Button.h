@@ -17,6 +17,10 @@ public:
 
 protected:
 	Texture buttTex;
+	Texture distortion;
+	Shader shader;
+	Shader distortionShader;
+	Clock clock;
 };
 
 class EndTurnButton : public Button {
@@ -31,4 +35,6 @@ public:
 	StartGameButton();
 	~StartGameButton();
 	void OnClick(TitleScreen* screen);
+
+
 };

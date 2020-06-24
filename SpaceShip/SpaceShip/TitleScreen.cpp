@@ -8,6 +8,7 @@ TitleScreen::TitleScreen(RenderWindow* w, Player* p) {
 	spaceTex.loadFromFile("Textures/general/space.png");
 	space.setTexture(spaceTex);
 	space.setPosition(0, 0);
+	
 }
 TitleScreen::~TitleScreen() {
 

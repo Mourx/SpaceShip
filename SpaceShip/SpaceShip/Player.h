@@ -30,6 +30,7 @@ public:
 	void drawHand();
 	void Damage(int dmg);
 	void AddCharge(Charge* c);
+	bool CheckAnimations();
 	Sprite healthIcon;
 	Text healthText;
 	int money;

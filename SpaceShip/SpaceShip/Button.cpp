@@ -14,5 +14,7 @@ void OnClick() {
 }
 
 void Button::Draw(RenderWindow* w) {
-	w->draw(icon);
+	shader.setUniform("time", clock.getElapsedTime().asSeconds());
+	distortionShader.setUniform("time", clock.getElapsedTime().asSeconds());
+	w->draw(icon,&distortionShader);
 }

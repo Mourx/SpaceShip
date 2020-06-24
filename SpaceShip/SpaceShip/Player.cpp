@@ -185,3 +185,13 @@ void Player::discardHand() {
 	}
 	hand.clear();
 }
+
+bool Player::CheckAnimations() {
+	bool bAnimations = false;
+	for (Charge* c : chargeDeck) {
+		if (c->CheckAnimation()) {
+			bAnimations = true;
+		}
+	}
+	return bAnimations;
+}

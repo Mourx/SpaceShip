@@ -211,6 +211,10 @@ void Combat::CheckDeaths() {
 }
 
 GAME_RESULT Combat::CheckGameOver() {
-
-	return result;
+	if (player->CheckAnimations()) {
+		return ACTIVE;
+	}
+	else {
+		return result;
+	}
 }

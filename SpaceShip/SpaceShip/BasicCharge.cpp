@@ -11,6 +11,7 @@ BasicCharge::BasicCharge() {
 	damage = 5;
 	cost = 1;
 	effectTime = 500000;
+	effectShade.loadFromFile("Textures/shaders/effectShade.vert",Shader::Vertex);
 }
 BasicCharge::~BasicCharge() {
 
