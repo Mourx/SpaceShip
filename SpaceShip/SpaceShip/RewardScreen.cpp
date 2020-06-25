@@ -7,13 +7,13 @@ RewardScreen::RewardScreen(RenderWindow* w,Player* p, bool bBoss) {
 		int r = rand() % 100;
 		Charge* opt;
 		if (r < 10) {
-			opt = fact.GenerateCharge(COMMON);
+			opt = fact.GenerateCharge(COMMONC);
 		}
 		else if (r < 20) {
-			opt = fact.GenerateCharge(UNCOMMON);
+			opt = fact.GenerateCharge(UNCOMMONC);
 		}
 		else {
-			opt = fact.GenerateCharge(RARE);
+			opt = fact.GenerateCharge(RAREC);
 		}
 		opt->icon.setPosition(250 + 120 * i, 200);
 		opt->icon.setScale(2, 2);
@@ -80,6 +80,6 @@ void RewardScreen::MoveMouse(Vector2f m) {
 
 }
 
-REWARD_STATE RewardScreen::CheckState() {
+PICK_STATE RewardScreen::CheckState() {
 	return phase;
 }

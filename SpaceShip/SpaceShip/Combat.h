@@ -5,6 +5,7 @@
 #include <vector>
 #include <SFML/Graphics.hpp>
 #include "enums.h"
+#include "Encounter.h"
 using namespace std;
 using namespace sf;
 class Charge;
@@ -14,7 +15,7 @@ class Gun;
 class Combat
 {
 public:
-	Combat(RenderWindow* w,Player* p);
+	Combat(RenderWindow* w,Player* p,Encounter* e);
 	~Combat();
 	void Draw();
 	void MouseDown(Vector2f m);
@@ -27,6 +28,7 @@ public:
 	void UpdateStrings();
 	GAME_RESULT CheckGameOver();
 private:
+	Encounter* encounter;
 	Button* endTurn;
 	Player* player;
 	float offsetX;

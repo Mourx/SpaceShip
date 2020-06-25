@@ -16,7 +16,12 @@ public:
 	void MouseUp(Vector2f m);
 	void MoveMouse(Vector2f m);
 	void Update(Time t);
+	void GenerateEncounter();
+	void UpdatePathing();
+	PICK_STATE getState() { return phase; }
+	STAGE_TYPE getStageType() { return selectedStage->GetType(); }
 private:
+	Clock clock;
 	vector<int> stageAmounts;
 	vector<vector<StageType*>> stages;
 	StageType* startStage;
@@ -30,6 +35,8 @@ private:
 	Shader unavailable;
 	Shader mouseOver;
 	StageType* hoverStage;
-	int currentTier = 3;
+	int currentTier = 0;
+	StageType* selectedStage = NULL;
+	PICK_STATE phase = PICKING;
 };
 

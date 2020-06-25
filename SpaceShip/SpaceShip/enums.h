@@ -32,15 +32,21 @@ enum GAME_RESULT {
 	LOSS
 };
 
-enum REWARD_STATE {
+enum PICK_STATE {
 	PICKING,
 	PICKED
 };
 
-enum ChargeRarity {
-	COMMON,
-	UNCOMMON,
-	RARE
+enum CHARGE_RARITY {
+	COMMONC,
+	UNCOMMONC,
+	RAREC
+};
+
+enum ENEMY_RARITY {
+	COMMONE,
+	UNCOMMONE,
+	RAREE
 };
 
 enum COMMON_CHARGES {

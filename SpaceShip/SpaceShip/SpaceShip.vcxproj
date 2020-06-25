@@ -150,8 +150,10 @@
     <ClCompile Include="Combat.cpp" />
     <ClCompile Include="Dummy.cpp" />
     <ClCompile Include="EasyBomb.cpp" />
+    <ClCompile Include="Encounter.cpp" />
     <ClCompile Include="EndTurnButton.cpp" />
     <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyFactory.cpp" />
     <ClCompile Include="enums.h" />
     <ClCompile Include="Gun.cpp" />
     <ClCompile Include="main.cpp" />
@@ -171,7 +173,9 @@
     <ClInclude Include="Charge.h" />
     <ClInclude Include="ChargeFactory.h" />
     <ClInclude Include="Combat.h" />
+    <ClInclude Include="Encounter.h" />
     <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyFactory.h" />
     <ClInclude Include="Gun.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="RewardScreen.h" />

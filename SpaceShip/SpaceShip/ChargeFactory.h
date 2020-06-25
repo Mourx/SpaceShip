@@ -5,7 +5,7 @@ class ChargeFactory
 {
 	typedef Charge* (*CreateCharge)();
 	public:
-		static Charge* GenerateCharge(ChargeRarity rarity) {
+		static Charge* GenerateCharge(CHARGE_RARITY rarity) {
 			CreateCharge createCommon[] =
 			{
 				BasicCharge::Create,
@@ -32,14 +32,14 @@ class ChargeFactory
 
 			switch (rarity)
 			{
-			case COMMON:
+			case COMMONC:
 				
 				return createCommon[rand() % countCom]();
 				break;
-			case UNCOMMON:
+			case UNCOMMONC:
 				return  createUncommon[rand() % countUnc]();
 				break;
-			case RARE:
+			case RAREC:
 				return createRare[rand() % countRare]();
 				break;
 			default:

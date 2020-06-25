@@ -2,7 +2,7 @@
 
 StagePath::StagePath(RenderWindow* window, Player* p) {
 	w = window;
-	p = player;
+	player = p;
 	GeneratePath();
 	spaceTex.loadFromFile("Textures/general/space.png");
 	space.setTexture(spaceTex);
@@ -84,10 +84,28 @@ void StagePath::Draw() {
 
 
 void StagePath::MouseDown(Vector2f m) {
-
+	for (StageType* s : stages[currentTier]) {
+		FloatRect bounds = s->icon.getGlobalBounds();
+		if (bounds.contains(m)) {
+			selectedStage = s;
+		}
+	}
 }
 
 void StagePath::MouseUp(Vector2f m) {
+	if (selectedStage != NULL) {
+		FloatRect bounds = selectedStage->icon.getGlobalBounds();
+		if (bounds.contains(m)) {
+			phase = PICKED;
+			hoverStage = NULL;
+		}
+		else {
+			selectedStage = NULL;
+		}
+	}
+}
+
+void StagePath::GenerateEncounter() {
 
 }
 
@@ -104,5 +122,10 @@ void StagePath::MoveMouse(Vector2f m) {
 }
 
 void StagePath::Update(Time t) {
+	available.setUniform("time", clock.getElapsedTime().asSeconds());
+}
 
+void StagePath::UpdatePathing() {
+	currentTier = player->getLevel() % tiers;
+	phase = PICKING;
 }

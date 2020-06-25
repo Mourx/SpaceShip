@@ -11,19 +11,21 @@ int main() {
 	srand(std::time(nullptr));
 	GAME_SCREEN gameScreen = MAIN_MENU;
 	GAME_RESULT result;
-	REWARD_STATE picking;
+	PICK_STATE picking;
 	
 	sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "SpaceShip Adventures in SPACE! But NOT in time >:( ");
 	window.setIcon(icon_ship.width,icon_ship.height,icon_ship.pixel_data);
 	Player* player = new Player();
 	TitleScreen* mainMenu = new TitleScreen(&window,player);
-	Combat* combat = new Combat(&window,player);
+	Combat* combat = new Combat(&window, player, new Encounter());
 	RewardScreen* reward = new RewardScreen(&window,player,false);
 	StagePath* path = new StagePath(&window,player);
 	sf::Clock clock;
 	while (window.isOpen()) {
 		sf::Time elapsed = clock.restart();
 		combat->Update(elapsed);
+		path->Update(elapsed);
+
 		sf::Event event;
 		
 		window.clear(sf::Color::Blue);
@@ -40,7 +42,7 @@ int main() {
 			case WAITING:
 				break;
 			case START:
-				combat = new Combat(&window, player);
+				combat = new Combat(&window, player, new Encounter());
 				gameScreen = COMBAT_SCREEN;
 				break;
 			}
@@ -69,9 +71,8 @@ int main() {
 			case PICKING:
 				break;
 			case PICKED:
-				gameScreen = COMBAT_SCREEN;
-				picking = PICKING;
-				combat = new Combat(&window, player);
+				gameScreen = STAGE_SELECT;
+				path->UpdatePathing();
 				//make new reward
 				break;
 			}
@@ -134,6 +135,14 @@ int main() {
 					Vector2f m = window.mapPixelToCoords(sf::Mouse::getPosition(window));
 					path->MoveMouse(m);
 				}
+			}
+			switch (path->getState()) {
+			case PICKING:
+				break;
+			case PICKED:
+				gameScreen = COMBAT_SCREEN;
+				combat = new Combat(&window, player, new Encounter());
+				break;
 			}
 			path->Draw();
 		}

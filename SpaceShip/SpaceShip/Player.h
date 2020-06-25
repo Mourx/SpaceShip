@@ -39,6 +39,8 @@ public:
 	int getDiscardSize();
 	int energyPerTurn = 3;
 	int currentEnergy = 0;
+	int getLevel() { return level; }
+	void levelUp();
 private:
 	Ship* ship;
 	Sprite icon;
@@ -51,7 +53,7 @@ private:
 	vector<Charge*> discard;
 	int handSize = 4;
 	int health = 0;
-	
+	int level = 0;
 	
 
 

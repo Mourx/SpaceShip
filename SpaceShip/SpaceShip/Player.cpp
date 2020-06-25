@@ -195,3 +195,7 @@ bool Player::CheckAnimations() {
 	}
 	return bAnimations;
 }
+
+void Player::levelUp() {
+	level++;
+}

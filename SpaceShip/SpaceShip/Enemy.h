@@ -18,6 +18,8 @@ public:
 	void setPosition(float x, float y);
 	void Draw(RenderWindow* w);
 	virtual void Attack(Gun* g, Player* p) {};
+	static Enemy* Create() { return new Enemy(); };
+
 	Sprite icon;
 	String getName();
 	Sprite attackIcon;
@@ -45,4 +47,6 @@ public:
 	Dummy();
 	~Dummy();
 	void Attack(Gun* g, Player* p);
+	static Enemy* Create() { return new Dummy(); };
+
 };

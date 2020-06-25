@@ -27,7 +27,9 @@ void EasyBomb::Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns) {
 				bExploded = true;
 				chargeEffect.setPosition(t->getUnit()->icon.getPosition().x - 50, t->getUnit()->icon.getPosition().y - 50);
 			}
-			location++;
+			else {
+				location++;
+			}
 		}
 	}
 	if (bExploded) {

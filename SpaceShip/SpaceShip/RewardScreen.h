@@ -14,11 +14,11 @@ public:
 	void MouseDown(Vector2f m);
 	void MouseUp(Vector2f m);
 	void MoveMouse(Vector2f m);
-	REWARD_STATE CheckState();
+	PICK_STATE CheckState();
 private:
 	int optCount = 3;
 	Player* player;
-	REWARD_STATE phase = PICKING;
+	PICK_STATE phase = PICKING;
 	RenderWindow* window;
 	vector<Charge*> options;
 	ChargeFactory fact;

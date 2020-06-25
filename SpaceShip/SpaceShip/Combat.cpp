@@ -1,9 +1,10 @@
 #include "Combat.h"
 
 
-Combat::Combat(RenderWindow* w,Player* p) {
+Combat::Combat(RenderWindow* w,Player* p,Encounter* e) {
 	window = w;
 	player = p;
+	encounter = e;
 	player->loadDeck();
 	gridX = 20 + window->getSize().x / 2;
 	for (int i = 0; i < 5; i++) {
@@ -13,8 +14,16 @@ Combat::Combat(RenderWindow* w,Player* p) {
 		}
 		combatGrid.push_back(r);
 	}
-	combatGrid[2][0]->setUnit(new Dummy());
-	totalEnemies = 1;
+	for (Enemy* e : encounter->GetEnemies()) {
+		int x = rand() % 5;
+		int y = rand() % 5;
+		while (combatGrid[y][x]->bHasUnit) {
+			x = rand() % 5;
+			y = rand() % 5;
+		}
+		combatGrid[y][x]->setUnit(e);
+	}
+	totalEnemies = encounter->GetEnemies().size();
 	spaceTex.loadFromFile("Textures/general/space.png");
 	space.setTexture(spaceTex);
 	space.setPosition(0, 0);
@@ -206,6 +215,7 @@ void Combat::CheckDeaths() {
 	else if (deadEnemies.size() == totalEnemies) {
 		bCombatOver = true;
 		result = WIN;
+		player->levelUp();
 		cout << "PLAYER WINS" << endl;
 	}
 }
