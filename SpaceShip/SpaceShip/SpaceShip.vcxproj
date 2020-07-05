@@ -193,6 +193,53 @@
     <ClInclude Include="TitleScreen.h" />
     <ClInclude Include="values.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\charges\basicCharge.png" />
+    <Image Include="Textures\charges\basicShield.png" />
+    <Image Include="Textures\charges\bombEffect.png" />
+    <Image Include="Textures\charges\chargeEffect.png" />
+    <Image Include="Textures\charges\easyBomb.png" />
+    <Image Include="Textures\charges\wideShield.png" />
+    <Image Include="Textures\combat\attack.png" />
+    <Image Include="Textures\combat\backGUI.png">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </Image>
+    <Image Include="Textures\combat\basicShot.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Textures\combat\deck.png" />
+    <Image Include="Textures\combat\discard.png" />
+    <Image Include="Textures\combat\endTurn.png" />
+    <Image Include="Textures\combat\enemyA.png" />
+    <Image Include="Textures\combat\energy.png" />
+    <Image Include="Textures\combat\gunA.png" />
+    <Image Include="Textures\combat\health.png" />
+    <Image Include="Textures\combat\playerA.png" />
+    <Image Include="Textures\combat\shield.png" />
+    <Image Include="Textures\combat\tile.png" />
+    <Image Include="Textures\general\space.png" />
+    <Image Include="Textures\rewards\rewardPrompt.png" />
+    <Image Include="Textures\rewards\skip.png" />
+    <Image Include="Textures\shaders\distortion.png" />
+    <Image Include="Textures\stageSelect\boss.png" />
+    <Image Include="Textures\stageSelect\combatEncounter.png" />
+    <Image Include="Textures\stageSelect\shop.png" />
+    <Image Include="Textures\stageSelect\treasure.png" />
+    <Image Include="Textures\titleScreen\startGame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Textures\shaders\available.vert" />
+    <None Include="Textures\shaders\completed.vert" />
+    <None Include="Textures\shaders\distort.frag" />
+    <None Include="Textures\shaders\effectShade.vert" />
+    <None Include="Textures\shaders\mouseOver.vert" />
+    <None Include="Textures\shaders\unavailable.vert" />
+    <None Include="Textures\shaders\wavy.vert" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

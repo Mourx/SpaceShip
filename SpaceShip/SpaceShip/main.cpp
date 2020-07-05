@@ -10,7 +10,7 @@
 
 int main() {
 	srand(std::time(nullptr));
-	GAME_SCREEN gameScreen = SHOP_SCREEN;
+	GAME_SCREEN gameScreen = MAIN_MENU;
 	GAME_RESULT result;
 	PICK_STATE picking;
 	

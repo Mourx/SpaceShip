@@ -40,6 +40,30 @@
     <Filter Include="Source Files\Shoptions">
       <UniqueIdentifier>{7d2514a5-9288-446c-afa0-155bb5e3e575}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{3c737d19-91f4-4037-bee5-5ea4af6baafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\charges">
+      <UniqueIdentifier>{4b0ef81e-5547-49bb-abea-b8430988ab8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\combat">
+      <UniqueIdentifier>{0d37ddcc-fd0d-4de3-9544-8c35b4c8a99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\general">
+      <UniqueIdentifier>{8778cd91-4a4d-4992-b420-1e02bcc7281a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\rewards">
+      <UniqueIdentifier>{a161b603-b5c5-475d-991a-241d3d5e0157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\shaders">
+      <UniqueIdentifier>{ba12d0cb-7bb2-4922-82e9-30ea02266766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\stageSelect">
+      <UniqueIdentifier>{7d305ba4-daf2-47ab-8f0b-8f69f14bd90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\titleScreen">
+      <UniqueIdentifier>{1f25d962-a504-4472-a9e8-307927656c87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -188,5 +212,114 @@
     <ClInclude Include="Shoption.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\charges\basicCharge.png">
+      <Filter>Resource Files\Textures\charges</Filter>
+    </Image>
+    <Image Include="Textures\charges\basicShield.png">
+      <Filter>Resource Files\Textures\charges</Filter>
+    </Image>
+    <Image Include="Textures\charges\bombEffect.png">
+      <Filter>Resource Files\Textures\charges</Filter>
+    </Image>
+    <Image Include="Textures\charges\chargeEffect.png">
+      <Filter>Resource Files\Textures\charges</Filter>
+    </Image>
+    <Image Include="Textures\charges\easyBomb.png">
+      <Filter>Resource Files\Textures\charges</Filter>
+    </Image>
+    <Image Include="Textures\charges\wideShield.png">
+      <Filter>Resource Files\Textures\charges</Filter>
+    </Image>
+    <Image Include="Textures\combat\attack.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\combat\backGUI.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\combat\basicShot.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\combat\deck.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\combat\discard.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\combat\endTurn.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\combat\enemyA.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\combat\energy.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\combat\gunA.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\combat\health.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\combat\playerA.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\combat\shield.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\combat\tile.png">
+      <Filter>Resource Files\Textures\combat</Filter>
+    </Image>
+    <Image Include="Textures\general\space.png">
+      <Filter>Resource Files\Textures\general</Filter>
+    </Image>
+    <Image Include="Textures\rewards\rewardPrompt.png">
+      <Filter>Resource Files\Textures\rewards</Filter>
+    </Image>
+    <Image Include="Textures\rewards\skip.png">
+      <Filter>Resource Files\Textures\rewards</Filter>
+    </Image>
+    <Image Include="Textures\shaders\distortion.png">
+      <Filter>Resource Files\Textures\shaders</Filter>
+    </Image>
+    <Image Include="Textures\stageSelect\boss.png">
+      <Filter>Resource Files\Textures\stageSelect</Filter>
+    </Image>
+    <Image Include="Textures\stageSelect\combatEncounter.png">
+      <Filter>Resource Files\Textures\stageSelect</Filter>
+    </Image>
+    <Image Include="Textures\stageSelect\shop.png">
+      <Filter>Resource Files\Textures\stageSelect</Filter>
+    </Image>
+    <Image Include="Textures\stageSelect\treasure.png">
+      <Filter>Resource Files\Textures\stageSelect</Filter>
+    </Image>
+    <Image Include="Textures\titleScreen\startGame.png">
+      <Filter>Resource Files\Textures\titleScreen</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Textures\shaders\available.vert">
+      <Filter>Resource Files\Textures\shaders</Filter>
+    </None>
+    <None Include="Textures\shaders\completed.vert">
+      <Filter>Resource Files\Textures\shaders</Filter>
+    </None>
+    <None Include="Textures\shaders\distort.frag">
+      <Filter>Resource Files\Textures\shaders</Filter>
+    </None>
+    <None Include="Textures\shaders\effectShade.vert">
+      <Filter>Resource Files\Textures\shaders</Filter>
+    </None>
+    <None Include="Textures\shaders\mouseOver.vert">
+      <Filter>Resource Files\Textures\shaders</Filter>
+    </None>
+    <None Include="Textures\shaders\unavailable.vert">
+      <Filter>Resource Files\Textures\shaders</Filter>
+    </None>
+    <None Include="Textures\shaders\wavy.vert">
+      <Filter>Resource Files\Textures\shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

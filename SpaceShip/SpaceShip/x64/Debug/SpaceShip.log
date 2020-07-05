@@ -1,2 +1,3 @@
-﻿  ShopScreen.cpp
+﻿  main.cpp
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\main.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   SpaceShip.vcxproj -> C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\x64\Debug\SpaceShip.exe
