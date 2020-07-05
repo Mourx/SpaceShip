@@ -1,7 +1,5 @@
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\vc141.pdb
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\vc141.idb
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\startgamebutton.obj
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\stagetype.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\stagepath.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\ship.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\shield.obj
@@ -10,8 +8,10 @@ c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\player
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\main.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\gun.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\enums.obj
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\enemyfactory.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\enemy.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\endturnbutton.obj
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\encounter.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\easybomb.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\dummy.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\combat.obj
@@ -23,8 +23,12 @@ c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\basicc
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\wideshield.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\titlescreen.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\tile.obj
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\encounter.obj
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\enemyfactory.obj
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\startgamebutton.obj
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\stagetype.obj
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\shoptioncharge.obj
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\shoptionbonus.obj
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\shoption.obj
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\shopscreen.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\x64\debug\spaceship.exe
 c:\users\joel\documents\spaceship\spaceship\spaceship\x64\debug\spaceship.ilk
 c:\users\joel\documents\spaceship\spaceship\spaceship\x64\debug\spaceship.pdb

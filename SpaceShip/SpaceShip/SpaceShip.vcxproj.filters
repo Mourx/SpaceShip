@@ -37,6 +37,9 @@
     <Filter Include="Header Files\Enemies">
       <UniqueIdentifier>{6d749c65-ca04-4ab3-94b3-6c008ed8026f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Shoptions">
+      <UniqueIdentifier>{7d2514a5-9288-446c-afa0-155bb5e3e575}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -114,6 +117,18 @@
     <ClCompile Include="EnemyFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ShopScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Shoption.cpp">
+      <Filter>Source Files\Shoptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoptionCharge.cpp">
+      <Filter>Source Files\Shoptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoptionBonus.cpp">
+      <Filter>Source Files\Shoptions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -166,6 +181,12 @@
     </ClInclude>
     <ClInclude Include="Enemy.h">
       <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Shoption.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

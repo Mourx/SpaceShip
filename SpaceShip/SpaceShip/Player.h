@@ -33,7 +33,6 @@ public:
 	bool CheckAnimations();
 	Sprite healthIcon;
 	Text healthText;
-	int money;
 	bool bIsDead = false;
 	int getDeckSize();
 	int getDiscardSize();
@@ -41,11 +40,13 @@ public:
 	int currentEnergy = 0;
 	int getLevel() { return level; }
 	void levelUp();
+	void addMoney(int m) { money += m; };
 private:
 	Ship* ship;
 	Sprite icon;
 	Texture playerTex;
 	Texture healthTex;
+	Text goldText;
 	Font font;
 	vector<Charge*> chargeDeck;
 	vector<Charge*> deck;
@@ -54,7 +55,7 @@ private:
 	int handSize = 4;
 	int health = 0;
 	int level = 0;
-	
+	int money;
 
 
 

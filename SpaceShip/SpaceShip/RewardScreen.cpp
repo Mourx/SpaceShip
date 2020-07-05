@@ -7,13 +7,13 @@ RewardScreen::RewardScreen(RenderWindow* w,Player* p, bool bBoss) {
 		int r = rand() % 100;
 		Charge* opt;
 		if (r < 10) {
-			opt = fact.GenerateCharge(COMMONC);
+			opt = fact.GenerateCharge(RAREC);
 		}
 		else if (r < 20) {
 			opt = fact.GenerateCharge(UNCOMMONC);
 		}
 		else {
-			opt = fact.GenerateCharge(RAREC);
+			opt = fact.GenerateCharge(COMMONC);
 		}
 		opt->icon.setPosition(250 + 120 * i, 200);
 		opt->icon.setScale(2, 2);

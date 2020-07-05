@@ -199,7 +199,7 @@ void Combat::CheckDeaths() {
 			if (t->bHasUnit) {
 				Enemy* e = t->getUnit();
 				if (e->bIsDead) {
-					player->money += e->bounty;
+					player->addMoney(e->getBounty());
 					e->setPosition(-150, -150);
 					deadEnemies.push_back(e);
 					t->setUnit(NULL);

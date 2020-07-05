@@ -34,7 +34,9 @@ Player::Player() {
 	chargeDeck.push_back(new BasicShield());
 	std::random_shuffle(deck.begin(), deck.end());
 
-
+	goldText.setFont(font);
+	goldText.setPosition(300, 20);
+	goldText.setCharacterSize(12);
 	
 }
 
@@ -100,6 +102,7 @@ void Player::DrawDetails(RenderWindow* w) {
 	for (Charge* c : discard) {
 		c->Draw(w);
 	}
+	w->draw(goldText);
 }
 vector<Charge*> Player::getHand() {
 
@@ -113,6 +116,7 @@ void Player::Update(Time t) {
 	for (Charge* c : discard) {
 		c->Update(t);
 	}
+	goldText.setString(to_string(money));
 }
 
 void Player::UseCharge(Charge* c) {

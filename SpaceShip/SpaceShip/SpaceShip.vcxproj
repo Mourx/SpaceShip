@@ -161,6 +161,10 @@
     <ClCompile Include="RewardScreen.cpp" />
     <ClCompile Include="Shield.cpp" />
     <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="ShopScreen.cpp" />
+    <ClCompile Include="Shoption.cpp" />
+    <ClCompile Include="ShoptionBonus.cpp" />
+    <ClCompile Include="ShoptionCharge.cpp" />
     <ClCompile Include="StagePath.cpp" />
     <ClCompile Include="StageType.cpp" />
     <ClCompile Include="StartGameButton.cpp" />
@@ -181,6 +185,8 @@
     <ClInclude Include="RewardScreen.h" />
     <ClInclude Include="Shield.h" />
     <ClInclude Include="Ship.h" />
+    <ClInclude Include="ShopScreen.h" />
+    <ClInclude Include="Shoption.h" />
     <ClInclude Include="StagePath.h" />
     <ClInclude Include="StageType.h" />
     <ClInclude Include="Tile.h" />

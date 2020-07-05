@@ -5,11 +5,12 @@
 #include "Combat.h"
 #include "RewardScreen.h"
 #include "TitleScreen.h"
+#include "ShopScreen.h"
 #include "StagePath.h"
 
 int main() {
 	srand(std::time(nullptr));
-	GAME_SCREEN gameScreen = MAIN_MENU;
+	GAME_SCREEN gameScreen = SHOP_SCREEN;
 	GAME_RESULT result;
 	PICK_STATE picking;
 	
@@ -20,6 +21,7 @@ int main() {
 	Combat* combat = new Combat(&window, player, new Encounter());
 	RewardScreen* reward = new RewardScreen(&window,player,false);
 	StagePath* path = new StagePath(&window,player);
+	ShopScreen* shop = new ShopScreen(&window, player);
 	sf::Clock clock;
 	while (window.isOpen()) {
 		sf::Time elapsed = clock.restart();
@@ -145,6 +147,13 @@ int main() {
 				break;
 			}
 			path->Draw();
+		}
+		if (gameScreen == SHOP_SCREEN) {
+			while (window.pollEvent(event))
+			{
+				if (event.type == sf::Event::Closed) window.close();
+			}
+			shop->Draw();
 		}
 		window.display();
 	}

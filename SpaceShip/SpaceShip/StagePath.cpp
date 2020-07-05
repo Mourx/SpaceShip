@@ -84,6 +84,7 @@ void StagePath::Draw() {
 
 
 void StagePath::MouseDown(Vector2f m) {
+	selectedStage = NULL;
 	for (StageType* s : stages[currentTier]) {
 		FloatRect bounds = s->icon.getGlobalBounds();
 		if (bounds.contains(m)) {
@@ -126,6 +127,7 @@ void StagePath::Update(Time t) {
 }
 
 void StagePath::UpdatePathing() {
+	selectedStage = NULL;
 	currentTier = player->getLevel() % tiers;
 	phase = PICKING;
 }

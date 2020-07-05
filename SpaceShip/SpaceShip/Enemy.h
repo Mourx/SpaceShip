@@ -29,7 +29,7 @@ public:
 	Text healthText;
 	void Damage(int dmg);
 	bool bIsDead = false;
-	int bounty = 5;
+	int getBounty() { return bounty; };
 protected:
 	String name;
 	int damage;
@@ -39,6 +39,7 @@ protected:
 	Texture attackTex;
 	Texture healthTex;
 	Font font;
+	int bounty = 5;
 };
 
 class Dummy : public Enemy 
