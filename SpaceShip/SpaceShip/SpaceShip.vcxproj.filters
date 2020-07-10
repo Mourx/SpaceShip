@@ -64,6 +64,9 @@
     <Filter Include="Resource Files\Textures\titleScreen">
       <UniqueIdentifier>{1f25d962-a504-4472-a9e8-307927656c87}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Buttons">
+      <UniqueIdentifier>{489e53c4-9823-4994-909b-4b27f8471b1d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -79,12 +82,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Tile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Button.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EndTurnButton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="enums.h">
@@ -104,9 +101,6 @@
     </ClCompile>
     <ClCompile Include="WideShield.cpp">
       <Filter>Source Files\Charges\Uncommon</Filter>
-    </ClCompile>
-    <ClCompile Include="StartGameButton.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="StageType.cpp">
       <Filter>Source Files</Filter>
@@ -152,6 +146,21 @@
     </ClCompile>
     <ClCompile Include="ShoptionBonus.cpp">
       <Filter>Source Files\Shoptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="EndTurnButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="StartGameButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="values.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

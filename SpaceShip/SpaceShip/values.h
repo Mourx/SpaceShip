@@ -1,7 +1,11 @@
 #pragma once
 #include <SFML/OpenGL.hpp>
-int WINDOW_HEIGHT = 800;
-int WINDOW_WIDTH = 800;
+
+static const struct {
+	int WINDOW_HEIGHT = 800;
+	int WINDOW_WIDTH = 800;
+} values;
+
 
 static const struct {
 	unsigned int  	 width;

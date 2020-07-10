@@ -3,6 +3,7 @@
 #include "Gun.h"
 #include "Ship.h"
 #include "Charge.h"
+
 #include <vector>
 using namespace sf;
 using namespace std;
@@ -41,6 +42,7 @@ public:
 	int getLevel() { return level; }
 	void levelUp();
 	void addMoney(int m) { money += m; };
+	int getMoney() { return money; }
 private:
 	Ship* ship;
 	Sprite icon;

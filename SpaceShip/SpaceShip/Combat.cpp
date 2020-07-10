@@ -124,6 +124,15 @@ void Combat::MoveMouse(Vector2f m) {
 			highlitGun = NULL;
 		}
 	}
+	for (Charge* c : player->getHand()) {
+		FloatRect bounds = c->icon.getGlobalBounds();
+		if (bounds.contains(m)) {
+			c->setHover(true);
+		}
+		else {
+			c->setHover(false);
+		}
+	}
 }
 
 void Combat::MouseUp(Vector2f m) {

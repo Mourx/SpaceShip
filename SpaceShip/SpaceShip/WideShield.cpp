@@ -1,6 +1,6 @@
 #include "Charge.h"
 
-WideShield::WideShield() {
+WideShield::WideShield() : Charge() {
 	chargeTex.loadFromFile("Textures/charges/wideShield.png");
 	icon.setTexture(chargeTex);
 	icon.setScale(1, 1);
@@ -8,6 +8,8 @@ WideShield::WideShield() {
 	damage = 7;
 	cost = 2;
 	effectTime = 500000;
+
+	description.setString("Provides the targeted and\n adjacent guns with shields. \nProvides a boost of 7.");
 	
 }
 

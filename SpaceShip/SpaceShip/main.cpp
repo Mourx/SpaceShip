@@ -14,7 +14,7 @@ int main() {
 	GAME_RESULT result;
 	PICK_STATE picking;
 	
-	sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "SpaceShip Adventures in SPACE! But NOT in time >:( ");
+	sf::RenderWindow window(sf::VideoMode(values.WINDOW_WIDTH, values.WINDOW_HEIGHT), "SpaceShip Adventures in SPACE! But NOT in time >:( ");
 	window.setIcon(icon_ship.width,icon_ship.height,icon_ship.pixel_data);
 	Player* player = new Player();
 	TitleScreen* mainMenu = new TitleScreen(&window,player);
@@ -27,7 +27,7 @@ int main() {
 		sf::Time elapsed = clock.restart();
 		combat->Update(elapsed);
 		path->Update(elapsed);
-
+		shop->Update(elapsed);
 		sf::Event event;
 		
 		window.clear(sf::Color::Blue);
@@ -142,8 +142,21 @@ int main() {
 			case PICKING:
 				break;
 			case PICKED:
-				gameScreen = COMBAT_SCREEN;
-				combat = new Combat(&window, player, new Encounter());
+				switch (path->getStageType()) {
+				case COMBAT:
+					gameScreen = COMBAT_SCREEN;
+					combat = new Combat(&window, player, new Encounter());
+					break;
+				case SHOP:
+					gameScreen = SHOP_SCREEN;
+					shop = new ShopScreen(&window, player);
+					break;
+				case TREASURE:
+					//need to implement;
+					break;
+				}
+				
+				
 				break;
 			}
 			path->Draw();
@@ -152,8 +165,30 @@ int main() {
 			while (window.pollEvent(event))
 			{
 				if (event.type == sf::Event::Closed) window.close();
+				if (event.type == sf::Event::MouseButtonPressed) {
+					Vector2f m = window.mapPixelToCoords(sf::Mouse::getPosition(window));
+					shop->MouseDown(m);
+				}
+				if (event.type == sf::Event::MouseButtonReleased) {
+					Vector2f m = window.mapPixelToCoords(sf::Mouse::getPosition(window));
+					shop->MouseUp(m);
+				}
+				if (event.type == sf::Event::MouseMoved) {
+					Vector2f m = window.mapPixelToCoords(sf::Mouse::getPosition(window));
+					shop->MoveMouse(m);
+				}
 			}
+			
 			shop->Draw();
+			switch (shop->GetPhase()) {
+			case PICKING:
+
+				break;
+			case PICKED:
+				gameScreen = STAGE_SELECT;
+				player->levelUp();
+				path->UpdatePathing();
+			}
 		}
 		window.display();
 	}

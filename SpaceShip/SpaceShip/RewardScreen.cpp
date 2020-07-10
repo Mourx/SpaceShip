@@ -43,7 +43,7 @@ void RewardScreen::Draw() {
 	window->draw(prompt);
 	window->draw(skip);
 	for (Charge* c : options) {
-		c->Draw(window);
+		c->DrawUnder(window);
 	}
 
 }

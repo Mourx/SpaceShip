@@ -2,9 +2,11 @@
 #include <SFML/Graphics.hpp>
 #include "Combat.h"
 #include "TitleScreen.h"
+#include "ShopScreen.h"
 using namespace sf;
 class Combat;
 class TitleScreen;
+class ShopScreen;
 class Button
 {
 public:
@@ -35,6 +37,11 @@ public:
 	StartGameButton();
 	~StartGameButton();
 	void OnClick(TitleScreen* screen);
+};
 
-
+class ExitShopButton : public Button {
+public:
+	ExitShopButton();
+	~ExitShopButton();
+	void OnClick(ShopScreen* screen);
 };

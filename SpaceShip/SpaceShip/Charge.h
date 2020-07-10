@@ -1,4 +1,5 @@
 #pragma once
+#include "values.h"
 #include <SFML/Graphics.hpp>
 #include "Gun.h"
 #include "Tile.h"
@@ -16,20 +17,27 @@ public:
 	virtual void Fire(Gun* g,vector<vector<Tile*>> grid,vector<Gun*> guns) { cout << "base" << endl; }
 	virtual void Update(Time t);
 	virtual void StartTimer(Time t) {};
-	virtual void Draw(RenderWindow* w);
+	virtual void DrawUnder(RenderWindow* w);
+	virtual void DrawOver(RenderWindow* w);
 	virtual bool CheckAnimation() { return bEffectVisible; }
 	int getCost() { return cost; };
 	static Charge* Create() { return new Charge(); };
+	void setHover(bool b) { bHover = b; }
 	Sprite icon;
 	Sprite chargeEffect;
 	int handPos = 0;
 	Vector2f restPos;
 protected:
+	bool bHover = false;
 	int cost =0;
 	float damage;
 	int width;
 	Texture chargeTex;
 	Texture chargeEffTex;
+	Texture toolTipTex;
+	Text description;
+	Sprite toolTipBox;
+	Font font;
 	float timer;
 	float effectTime = 0;
 	bool bEffectVisible = false;

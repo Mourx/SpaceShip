@@ -1,6 +1,6 @@
 #include "Charge.h"
 
-BasicCharge::BasicCharge() {
+BasicCharge::BasicCharge() : Charge() {
 	chargeTex.loadFromFile("Textures/charges/basicCharge.png");
 	icon.setTexture(chargeTex);
 	icon.setScale(1, 1);
@@ -8,10 +8,12 @@ BasicCharge::BasicCharge() {
 	chargeEffTex.loadFromFile("Textures/charges/chargeEffect.png");
 	chargeEffect.setTexture(chargeEffTex);
 
-	damage = 5;
+	damage = 10;
 	cost = 1;
 	effectTime = 500000;
 	effectShade.loadFromFile("Textures/shaders/effectShade.vert",Shader::Vertex);
+
+	description.setString("Fires a charge across \n\ta single row. \nDeals 10 damage to \n\tunits in that row.");
 }
 BasicCharge::~BasicCharge() {
 

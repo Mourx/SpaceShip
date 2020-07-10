@@ -19,7 +19,7 @@ ShoptionCharge::ShoptionCharge() {
 	costText.setFont(font);
 	costText.setString(to_string(cost));
 	costText.setCharacterSize(18);
-	
+	icon = &charge->icon;
 
 }
 
@@ -29,8 +29,13 @@ ShoptionCharge::~ShoptionCharge() {
 
 
 void ShoptionCharge::Draw(RenderWindow* w) {
-	w->draw(charge->icon);
+	charge->DrawUnder(w);
 	w->draw(costText);
+}
+
+void ShoptionCharge::DrawOver(RenderWindow* w) {
+
+	charge->DrawOver(w);
 }
 
 Charge* ShoptionCharge::getCharge() {
@@ -40,4 +45,8 @@ Charge* ShoptionCharge::getCharge() {
 void ShoptionCharge::SetPosition(int x, int y) {
 	charge->icon.setPosition(x, y);
 	costText.setPosition(charge->icon.getPosition() + Vector2f(20, 200));
+}
+
+void ShoptionCharge::Update(Time t) {
+	charge->Update(t);
 }

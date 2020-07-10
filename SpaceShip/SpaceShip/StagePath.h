@@ -19,7 +19,15 @@ public:
 	void GenerateEncounter();
 	void UpdatePathing();
 	PICK_STATE getState() { return phase; }
-	STAGE_TYPE getStageType() { return selectedStage->GetType(); }
+	STAGE_TYPE getStageType() { 
+		if (selectedStage->GetType() != TREASURE) {
+			return selectedStage->GetType();
+		}
+		//Debug code -- To be taken out when treasures ready
+		else {
+			return COMBAT;
+		}
+	}
 private:
 	Clock clock;
 	vector<int> stageAmounts;

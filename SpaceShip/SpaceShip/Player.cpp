@@ -9,7 +9,7 @@ Player::Player() {
 	icon.setScale(7, 9);
 	ship = new Ship();
 	health = 100;
-	money = 0;
+	money = 200;
 	gunPos.push_back(Vector2f(295, 95));
 	gunPos.push_back(Vector2f(295, 176));
 	gunPos.push_back(Vector2f(295, 257));
@@ -97,12 +97,17 @@ void Player::DrawBackground(RenderWindow* w) {
 
 void Player::DrawDetails(RenderWindow* w) {
 	for (Charge* c : hand) {
-		c->Draw(w);
+		c->DrawUnder(w);
 	}
 	for (Charge* c : discard) {
-		c->Draw(w);
+		c->DrawUnder(w);
 	}
 	w->draw(goldText);
+	if (selectedCharge == NULL) {
+		for (Charge* c : hand) {
+			c->DrawOver(w);
+		}
+	}
 }
 vector<Charge*> Player::getHand() {
 

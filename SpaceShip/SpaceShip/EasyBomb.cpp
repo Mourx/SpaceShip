@@ -1,6 +1,6 @@
 #include "Charge.h"
 
-EasyBomb::EasyBomb() {
+EasyBomb::EasyBomb() : Charge() {
 	chargeTex.loadFromFile("Textures/charges/easyBomb.png");
 	icon.setTexture(chargeTex);
 	icon.setScale(1, 1);
@@ -12,6 +12,8 @@ EasyBomb::EasyBomb() {
 	cost = 2;
 	effectTime = 500000;
 	effectShade.loadFromFile("Textures/shaders/effectShade.vert", Shader::Vertex);
+
+	description.setString("Deals damage in an area\n  around the first enemy in\n  the row.\nDeals 25 damage.");
 }
 EasyBomb::~EasyBomb() {
 
