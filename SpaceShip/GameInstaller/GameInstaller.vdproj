@@ -15,31 +15,19 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_01A4C441186144DA8CC5B7B57183BB52"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_03EFD670FB564199B6784B4DEF038546"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_051C1A9DA8C849B1A32E63C2F9FA0B51"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_0D66B1A4842342FAA198540F473D1094"
+        "MsmKey" = "8:_09297D5FDE254A37AA6CA12F2004F99D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_0FBDB4A3AD164223BF4FDB6A32042767"
+        "MsmKey" = "8:_0B878DF9CF5947929B087C2137052D70"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -51,7 +39,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_19DB52297E714064B135C9BC771FA9C1"
+        "MsmKey" = "8:_13026D7106B9489290C05A18E7FF5724"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1671AB56ED3F4357AFDCE897270A84F4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -69,25 +63,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_2F03F2A7EAED4889999C6BB4262D829A"
+        "MsmKey" = "8:_2ED350009B3B4B53ACA9E9220C967737"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3153B9C455CB4E3F8322A7A36B78092E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_35D9758EE04B48F5AF6F446E71D4DBD2"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3960075FB1B944A0A34D1475ECA63125"
+        "MsmKey" = "8:_346B0543B1DC42DE8D87CF354D757897"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -99,19 +81,55 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_3B74B984D21B445A85739169DC668FEF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3B7DEC6735C44A818D24D57EFEC3136B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4480D04B00DD48C097846C0EB3FD1790"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_44AFEBC55E57413B8CAEDF6B95D6D6C9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_45947F056A134AD0A9225755D6FC75B0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_46CB836D484E4178BBA6742722713525"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4763ADEC09BF4B87A7F7CC458B26F54B"
+        "MsmKey" = "8:_48EEF779F9CB48F1B737786667DBA809"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4F7E9C90F81E473F93E5DABB3B36B1D2"
+        "MsmKey" = "8:_5200F9E9A6944D418C3AAA8E3741A49C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5763630D2F6F484F86BC5D46DBFD720E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -123,37 +141,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_5D2C2F01546345909AF9238BAC36C5E2"
+        "MsmKey" = "8:_5B4B6103ACCB48CC80E78491E44A431D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_64212CE58B674BB2B347A17FF2BCCBC5"
+        "MsmKey" = "8:_6039DD54AB52492D80EA4747E94367EF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_66DE7B4A6A9D4C7687C59852A36E1D23"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6908B75F08BF49A988068DDA62A3424C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6B7FF1F7BC3943B1881C54464B654D08"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6C792BC6435E40709C00FD9CD9CF70A0"
+        "MsmKey" = "8:_6B211E6C0294468D9642583152951CDB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -165,13 +165,31 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_73F5479919C844978C94FFAF28596D09"
+        "MsmKey" = "8:_73EEADE0F0014A49A2F6F9C5B586D92D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_7AC3BCDEBB29451A9A591F5B6F2141A5"
+        "MsmKey" = "8:_74E7F21E3C5D4B39A48017D122027919"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_78C919F58A07409F94EDF74711C75235"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_79195C5F80AD40DFAB72B4FA686BCB79"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7970C9BB12284D75A45642752EA4BADE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -195,25 +213,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7F7D940B315E4345A84E7C4EAB2DA7D1"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_801F9C3563F54CB488B26FE3D7428E17"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8A997C6C2445458396AC3E573203F617"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8AE41F6342404CC79B3705AA9D94B58A"
+        "MsmKey" = "8:_83581700230F4EFD95CB5AE42A10AD5E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -225,37 +231,37 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8B5D8F93C0F84516BBA58F74C589D8C7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8E6549A5B2E5421A887A2602AD7BB861"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A0BC70D7EE1B4F4F8555E140728A921B"
+        "MsmKey" = "8:_92C825A0728D48FCB9973FF163E59AAF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9409D803E8F84DF3A81FF2B065EF10F0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_97B8C20A09CB4D10916FBE0F9FAB8EEE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_A2E918222A8341DC97C674E9D8D10DF3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A2F8199FCDA2499C982C696E3641BADE"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A6379A18601B467EA88A4CC878B6F537"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A6BF151A35C942F0BE57642857F5D14A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -273,7 +279,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_AC5C2188977F4399A393F27686A6C4CE"
+        "MsmKey" = "8:_AA7767F2B4614180BD17A90CC923D03E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AAACDDF27334477FA6B375D79226B19A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -285,25 +297,43 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_AFCC7CB7370E404BA533EE4630506955"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B0D86D7F3E9346348743E4BBBC434381"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B236355561D345C5A6AE20A15A3AA13F"
+        "MsmKey" = "8:_B175C46F12A746A48ABC3BFE4A5A9B12"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B442D37515E047508AD1A05C60193BC7"
+        "MsmKey" = "8:_B3BCB4015DC2489DA9C21F579B6EF9F8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C2ECBD29874645F28EAD3AE9E36D214E"
+        "MsmKey" = "8:_B885CCB2D18D4A96A2D52AB71A65AAE2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B8F7F8F0626C415EA59CFE1F748694A0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C5AC892443524C2D81DCCD279D0662A2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -315,43 +345,37 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E245A280F67E44B69746137AA0E3BD34"
+        "MsmKey" = "8:_D475CEF79B914CEEA7A5E4B57BD4FB0B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E59B00D46CCE4B35824BA04010FADB1B"
+        "MsmKey" = "8:_DAFE390650314EA5B5E0F74C1F3F9800"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E5BFDBA6AE874372A455025A015833EA"
+        "MsmKey" = "8:_DD9B65A5EFDF430CAF11D7D1BBD75391"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_ED22378EE03A4367A5782AA7B4990DAD"
+        "MsmKey" = "8:_E49B16CF5DF54150B18C929C3042C599"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F34247FEFB8642E6A86FF4F9FD389D98"
+        "MsmKey" = "8:_E6A169E13AD544619E30EDC6010EE70C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_F47FBDA775844F189B00FF15FBE6A6BE"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F988119C8CCF47A8872F8826FDA0CEFB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -373,6 +397,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -389,6 +429,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -410,46 +458,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_01A4C441186144DA8CC5B7B57183BB52"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\stageSelect\\shop.png"
-            "TargetName" = "8:shop.png"
-            "Tag" = "8:"
-            "Folder" = "8:_CF24E9EAF37E4A7981FFBEB686C34D3B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_03EFD670FB564199B6784B4DEF038546"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\health.png"
-            "TargetName" = "8:health.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_051C1A9DA8C849B1A32E63C2F9FA0B51"
             {
             "SourcePath" = "8:..\\SpaceShip\\ariblk.ttf"
@@ -470,12 +478,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0D66B1A4842342FAA198540F473D1094"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_09297D5FDE254A37AA6CA12F2004F99D"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\titleScreen\\startGame.png"
-            "TargetName" = "8:startGame.png"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\gunA.png"
+            "TargetName" = "8:gunA.png"
             "Tag" = "8:"
-            "Folder" = "8:_936548BC5E6341528586A4B193104CF2"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -490,12 +498,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0FBDB4A3AD164223BF4FDB6A32042767"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0B878DF9CF5947929B087C2137052D70"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\easyBomb.png"
-            "TargetName" = "8:easyBomb.png"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\distortion.png"
+            "TargetName" = "8:distortion.png"
             "Tag" = "8:"
-            "Folder" = "8:_9EA4597D950D4DF8A6C41D2735CF5BAC"
+            "Folder" = "8:_FFD810EC511F4170B71E6B5D78562194"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -530,12 +538,32 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_19DB52297E714064B135C9BC771FA9C1"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_13026D7106B9489290C05A18E7FF5724"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\completed.vert"
-            "TargetName" = "8:completed.vert"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\chargeEffect.png"
+            "TargetName" = "8:chargeEffect.png"
             "Tag" = "8:"
-            "Folder" = "8:_3A8C42031B2D4B98BB19688762087BC3"
+            "Folder" = "8:_FD24034B1A804381AE5D0D40F04E7E35"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1671AB56ED3F4357AFDCE897270A84F4"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\basicShot.png"
+            "TargetName" = "8:basicShot.png"
+            "Tag" = "8:"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -570,32 +598,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2F03F2A7EAED4889999C6BB4262D829A"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\tile.png"
-            "TargetName" = "8:tile.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3153B9C455CB4E3F8322A7A36B78092E"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2ED350009B3B4B53ACA9E9220C967737"
             {
             "SourcePath" = "8:..\\SpaceShip\\Textures\\rewards\\skip.png"
             "TargetName" = "8:skip.png"
             "Tag" = "8:"
-            "Folder" = "8:_552B0349B92443CC89971C5FB016B0A8"
+            "Folder" = "8:_C304E9AAD68F43129027F083B39E795B"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -610,32 +618,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_35D9758EE04B48F5AF6F446E71D4DBD2"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_346B0543B1DC42DE8D87CF354D757897"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\mouseOver.vert"
-            "TargetName" = "8:mouseOver.vert"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\stageSelect\\combatEncounter.png"
+            "TargetName" = "8:combatEncounter.png"
             "Tag" = "8:"
-            "Folder" = "8:_3A8C42031B2D4B98BB19688762087BC3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3960075FB1B944A0A34D1475ECA63125"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\general\\space.png"
-            "TargetName" = "8:space.png"
-            "Tag" = "8:"
-            "Folder" = "8:_8D918C4B2C914C539B980B7A2DE8412C"
+            "Folder" = "8:_B427F245A92C41CBBFA83CB31069FCB7"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -670,6 +658,106 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3B74B984D21B445A85739169DC668FEF"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\stageSelect\\treasure.png"
+            "TargetName" = "8:treasure.png"
+            "Tag" = "8:"
+            "Folder" = "8:_B427F245A92C41CBBFA83CB31069FCB7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3B7DEC6735C44A818D24D57EFEC3136B"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\endTurn.png"
+            "TargetName" = "8:endTurn.png"
+            "Tag" = "8:"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4480D04B00DD48C097846C0EB3FD1790"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\shield.png"
+            "TargetName" = "8:shield.png"
+            "Tag" = "8:"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_44AFEBC55E57413B8CAEDF6B95D6D6C9"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\completed.vert"
+            "TargetName" = "8:completed.vert"
+            "Tag" = "8:"
+            "Folder" = "8:_FFD810EC511F4170B71E6B5D78562194"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_45947F056A134AD0A9225755D6FC75B0"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\basicShield.png"
+            "TargetName" = "8:basicShield.png"
+            "Tag" = "8:"
+            "Folder" = "8:_FD24034B1A804381AE5D0D40F04E7E35"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_46CB836D484E4178BBA6742722713525"
             {
             "SourcePath" = "8:..\\SpaceShip\\sfml-network-2.dll"
@@ -690,12 +778,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4763ADEC09BF4B87A7F7CC458B26F54B"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_48EEF779F9CB48F1B737786667DBA809"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\wideShield.png"
-            "TargetName" = "8:wideShield.png"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\mouseOver.vert"
+            "TargetName" = "8:mouseOver.vert"
             "Tag" = "8:"
-            "Folder" = "8:_9EA4597D950D4DF8A6C41D2735CF5BAC"
+            "Folder" = "8:_FFD810EC511F4170B71E6B5D78562194"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -710,12 +798,32 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4F7E9C90F81E473F93E5DABB3B36B1D2"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5200F9E9A6944D418C3AAA8E3741A49C"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\playerA.png"
-            "TargetName" = "8:playerA.png"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\stageSelect\\boss.png"
+            "TargetName" = "8:boss.png"
             "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
+            "Folder" = "8:_B427F245A92C41CBBFA83CB31069FCB7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5763630D2F6F484F86BC5D46DBFD720E"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\distort.frag"
+            "TargetName" = "8:distort.frag"
+            "Tag" = "8:"
+            "Folder" = "8:_FFD810EC511F4170B71E6B5D78562194"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -750,112 +858,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5D2C2F01546345909AF9238BAC36C5E2"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\enemyA.png"
-            "TargetName" = "8:enemyA.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_64212CE58B674BB2B347A17FF2BCCBC5"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\stageSelect\\combatEncounter.png"
-            "TargetName" = "8:combatEncounter.png"
-            "Tag" = "8:"
-            "Folder" = "8:_CF24E9EAF37E4A7981FFBEB686C34D3B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_66DE7B4A6A9D4C7687C59852A36E1D23"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\enemyA.c"
-            "TargetName" = "8:enemyA.c"
-            "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6908B75F08BF49A988068DDA62A3424C"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\stageSelect\\treasure.png"
-            "TargetName" = "8:treasure.png"
-            "Tag" = "8:"
-            "Folder" = "8:_CF24E9EAF37E4A7981FFBEB686C34D3B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6B7FF1F7BC3943B1881C54464B654D08"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\chargeEffect.png"
-            "TargetName" = "8:chargeEffect.png"
-            "Tag" = "8:"
-            "Folder" = "8:_9EA4597D950D4DF8A6C41D2735CF5BAC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6C792BC6435E40709C00FD9CD9CF70A0"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5B4B6103ACCB48CC80E78491E44A431D"
             {
             "SourcePath" = "8:..\\SpaceShip\\Textures\\rewards\\rewardPrompt.png"
             "TargetName" = "8:rewardPrompt.png"
             "Tag" = "8:"
-            "Folder" = "8:_552B0349B92443CC89971C5FB016B0A8"
+            "Folder" = "8:_C304E9AAD68F43129027F083B39E795B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6039DD54AB52492D80EA4747E94367EF"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\toolTip.png"
+            "TargetName" = "8:toolTip.png"
+            "Tag" = "8:"
+            "Folder" = "8:_FD24034B1A804381AE5D0D40F04E7E35"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6B211E6C0294468D9642583152951CDB"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\effectShade.vert"
+            "TargetName" = "8:effectShade.vert"
+            "Tag" = "8:"
+            "Folder" = "8:_FFD810EC511F4170B71E6B5D78562194"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -890,12 +938,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_73F5479919C844978C94FFAF28596D09"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_73EEADE0F0014A49A2F6F9C5B586D92D"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\distort.frag"
-            "TargetName" = "8:distort.frag"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\general\\space.png"
+            "TargetName" = "8:space.png"
             "Tag" = "8:"
-            "Folder" = "8:_3A8C42031B2D4B98BB19688762087BC3"
+            "Folder" = "8:_C855FCF311644E79B1426860FB8B69DD"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -910,12 +958,72 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7AC3BCDEBB29451A9A591F5B6F2141A5"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_74E7F21E3C5D4B39A48017D122027919"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\bombEffect.png"
-            "TargetName" = "8:bombEffect.png"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\artefacts\\ancientHammer.png"
+            "TargetName" = "8:ancientHammer.png"
             "Tag" = "8:"
-            "Folder" = "8:_9EA4597D950D4DF8A6C41D2735CF5BAC"
+            "Folder" = "8:_0D5493E859E143DA8F22401F06D1D18B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_78C919F58A07409F94EDF74711C75235"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\health.png"
+            "TargetName" = "8:health.png"
+            "Tag" = "8:"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_79195C5F80AD40DFAB72B4FA686BCB79"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\orbBotA.png"
+            "TargetName" = "8:orbBotA.png"
+            "Tag" = "8:"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7970C9BB12284D75A45642752EA4BADE"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\shop\\shopExit.png"
+            "TargetName" = "8:shopExit.png"
+            "Tag" = "8:"
+            "Folder" = "8:_C43AE2EAC2C14302906D101C34183663"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -990,26 +1098,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7F7D940B315E4345A84E7C4EAB2DA7D1"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\energy.png"
-            "TargetName" = "8:energy.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_801F9C3563F54CB488B26FE3D7428E17"
             {
             "SourcePath" = "8:..\\SpaceShip\\sfml-graphics-2.dll"
@@ -1030,32 +1118,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8A997C6C2445458396AC3E573203F617"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_83581700230F4EFD95CB5AE42A10AD5E"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\shield.png"
-            "TargetName" = "8:shield.png"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\backGUI.png"
+            "TargetName" = "8:backGUI.png"
             "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8AE41F6342404CC79B3705AA9D94B58A"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\attack.png"
-            "TargetName" = "8:attack.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1090,6 +1158,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8B5D8F93C0F84516BBA58F74C589D8C7"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\tile.png"
+            "TargetName" = "8:tile.png"
+            "Tag" = "8:"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8E6549A5B2E5421A887A2602AD7BB861"
             {
             "SourcePath" = "8:..\\SpaceShip\\sfml-graphics-d-2.dll"
@@ -1110,12 +1198,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A0BC70D7EE1B4F4F8555E140728A921B"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_92C825A0728D48FCB9973FF163E59AAF"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\discard.png"
-            "TargetName" = "8:discard.png"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\deck.png"
+            "TargetName" = "8:deck.png"
             "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9409D803E8F84DF3A81FF2B065EF10F0"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\stageSelect\\shop.png"
+            "TargetName" = "8:shop.png"
+            "Tag" = "8:"
+            "Folder" = "8:_B427F245A92C41CBBFA83CB31069FCB7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_97B8C20A09CB4D10916FBE0F9FAB8EEE"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\titleScreen\\startGame.png"
+            "TargetName" = "8:startGame.png"
+            "Tag" = "8:"
+            "Folder" = "8:_5A9648928FDB4CD5A0FD85291CCC091B"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1136,66 +1264,6 @@
             "TargetName" = "8:sfml-window-2.dll"
             "Tag" = "8:"
             "Folder" = "8:_7FB1A97CC3C54593A46E4ECB116F2485"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A2F8199FCDA2499C982C696E3641BADE"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\endTurn.png"
-            "TargetName" = "8:endTurn.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A6379A18601B467EA88A4CC878B6F537"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\distortion.png"
-            "TargetName" = "8:distortion.png"
-            "Tag" = "8:"
-            "Folder" = "8:_3A8C42031B2D4B98BB19688762087BC3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A6BF151A35C942F0BE57642857F5D14A"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\gunA.png"
-            "TargetName" = "8:gunA.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1250,12 +1318,32 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AC5C2188977F4399A393F27686A6C4CE"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AA7767F2B4614180BD17A90CC923D03E"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\basicCharge.png"
-            "TargetName" = "8:basicCharge.png"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\discard.png"
+            "TargetName" = "8:discard.png"
             "Tag" = "8:"
-            "Folder" = "8:_9EA4597D950D4DF8A6C41D2735CF5BAC"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AAACDDF27334477FA6B375D79226B19A"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\easyBomb.png"
+            "TargetName" = "8:easyBomb.png"
+            "Tag" = "8:"
+            "Folder" = "8:_FD24034B1A804381AE5D0D40F04E7E35"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1290,6 +1378,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AFCC7CB7370E404BA533EE4630506955"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\basicCharge.png"
+            "TargetName" = "8:basicCharge.png"
+            "Tag" = "8:"
+            "Folder" = "8:_FD24034B1A804381AE5D0D40F04E7E35"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B0D86D7F3E9346348743E4BBBC434381"
             {
             "SourcePath" = "8:..\\SpaceShip\\sfml-system-2.dll"
@@ -1310,12 +1418,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B236355561D345C5A6AE20A15A3AA13F"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B175C46F12A746A48ABC3BFE4A5A9B12"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\basicShield.png"
-            "TargetName" = "8:basicShield.png"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\attack.png"
+            "TargetName" = "8:attack.png"
             "Tag" = "8:"
-            "Folder" = "8:_9EA4597D950D4DF8A6C41D2735CF5BAC"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1330,12 +1438,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B442D37515E047508AD1A05C60193BC7"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B3BCB4015DC2489DA9C21F579B6EF9F8"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\stageSelect\\boss.png"
-            "TargetName" = "8:boss.png"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\playerA.png"
+            "TargetName" = "8:playerA.png"
             "Tag" = "8:"
-            "Folder" = "8:_CF24E9EAF37E4A7981FFBEB686C34D3B"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1350,12 +1458,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C2ECBD29874645F28EAD3AE9E36D214E"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B885CCB2D18D4A96A2D52AB71A65AAE2"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\basicShot.png"
-            "TargetName" = "8:basicShot.png"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\bombEffect.png"
+            "TargetName" = "8:bombEffect.png"
             "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
+            "Folder" = "8:_FD24034B1A804381AE5D0D40F04E7E35"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B8F7F8F0626C415EA59CFE1F748694A0"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\wavy.vert"
+            "TargetName" = "8:wavy.vert"
+            "Tag" = "8:"
+            "Folder" = "8:_FFD810EC511F4170B71E6B5D78562194"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C5AC892443524C2D81DCCD279D0662A2"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\unavailable.vert"
+            "TargetName" = "8:unavailable.vert"
+            "Tag" = "8:"
+            "Folder" = "8:_FFD810EC511F4170B71E6B5D78562194"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1390,72 +1538,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E245A280F67E44B69746137AA0E3BD34"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\wavy.vert"
-            "TargetName" = "8:wavy.vert"
-            "Tag" = "8:"
-            "Folder" = "8:_3A8C42031B2D4B98BB19688762087BC3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E59B00D46CCE4B35824BA04010FADB1B"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\backGUI.png"
-            "TargetName" = "8:backGUI.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E5BFDBA6AE874372A455025A015833EA"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\effectShade.vert"
-            "TargetName" = "8:effectShade.vert"
-            "Tag" = "8:"
-            "Folder" = "8:_3A8C42031B2D4B98BB19688762087BC3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ED22378EE03A4367A5782AA7B4990DAD"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D475CEF79B914CEEA7A5E4B57BD4FB0B"
             {
             "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\available.vert"
             "TargetName" = "8:available.vert"
             "Tag" = "8:"
-            "Folder" = "8:_3A8C42031B2D4B98BB19688762087BC3"
+            "Folder" = "8:_FFD810EC511F4170B71E6B5D78562194"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1470,12 +1558,72 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F34247FEFB8642E6A86FF4F9FD389D98"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DAFE390650314EA5B5E0F74C1F3F9800"
             {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\shaders\\unavailable.vert"
-            "TargetName" = "8:unavailable.vert"
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\charges\\wideShield.png"
+            "TargetName" = "8:wideShield.png"
             "Tag" = "8:"
-            "Folder" = "8:_3A8C42031B2D4B98BB19688762087BC3"
+            "Folder" = "8:_FD24034B1A804381AE5D0D40F04E7E35"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DD9B65A5EFDF430CAF11D7D1BBD75391"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\energy.png"
+            "TargetName" = "8:energy.png"
+            "Tag" = "8:"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E49B16CF5DF54150B18C929C3042C599"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\enemyA.c"
+            "TargetName" = "8:enemyA.c"
+            "Tag" = "8:"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E6A169E13AD544619E30EDC6010EE70C"
+            {
+            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\enemyA.png"
+            "TargetName" = "8:enemyA.png"
+            "Tag" = "8:"
+            "Folder" = "8:_293248DAE6D1404192F99F1F540E854A"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1496,26 +1644,6 @@
             "TargetName" = "8:sfml-audio-d-2.dll"
             "Tag" = "8:"
             "Folder" = "8:_7FB1A97CC3C54593A46E4ECB116F2485"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F988119C8CCF47A8872F8826FDA0CEFB"
-            {
-            "SourcePath" = "8:..\\SpaceShip\\Textures\\combat\\deck.png"
-            "TargetName" = "8:deck.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1B79FD83C84B43BB899C2A6F825419AA"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1555,79 +1683,101 @@
                     "Property" = "8:_36633D9271F64C57B24A9EFBBA638E6D"
                         "Folders"
                         {
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_1B79FD83C84B43BB899C2A6F825419AA"
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_0D5493E859E143DA8F22401F06D1D18B"
+                            {
+                            "Name" = "8:artefacts"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_8A221DA99D6548738D32576A83FA6A01"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_293248DAE6D1404192F99F1F540E854A"
                             {
                             "Name" = "8:combat"
                             "AlwaysCreate" = "11:FALSE"
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
-                            "Property" = "8:_0A470063A8D04332AB58A13C7F330BDC"
+                            "Property" = "8:_AADF20490CB0435F902A82429549B581"
                                 "Folders"
                                 {
                                 }
                             }
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_3A8C42031B2D4B98BB19688762087BC3"
-                            {
-                            "Name" = "8:shaders"
-                            "AlwaysCreate" = "11:FALSE"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "Property" = "8:_C3B19FBE9CE54F5E9583F15F2D869827"
-                                "Folders"
-                                {
-                                }
-                            }
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_552B0349B92443CC89971C5FB016B0A8"
-                            {
-                            "Name" = "8:rewards"
-                            "AlwaysCreate" = "11:FALSE"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "Property" = "8:_9DD4E6425EC84944A9CACF6E9D1AE3DE"
-                                "Folders"
-                                {
-                                }
-                            }
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_8D918C4B2C914C539B980B7A2DE8412C"
-                            {
-                            "Name" = "8:general"
-                            "AlwaysCreate" = "11:FALSE"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "Property" = "8:_B1D34BC9FE894401A7FED816A10381E4"
-                                "Folders"
-                                {
-                                }
-                            }
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_936548BC5E6341528586A4B193104CF2"
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_5A9648928FDB4CD5A0FD85291CCC091B"
                             {
                             "Name" = "8:titleScreen"
                             "AlwaysCreate" = "11:FALSE"
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
-                            "Property" = "8:_E3C897C5EC874F39B2B3898C08787B3D"
+                            "Property" = "8:_E180F53FFBDE4B1D9A265690996D0DA1"
                                 "Folders"
                                 {
                                 }
                             }
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_9EA4597D950D4DF8A6C41D2735CF5BAC"
-                            {
-                            "Name" = "8:charges"
-                            "AlwaysCreate" = "11:FALSE"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "Property" = "8:_54B01EDA4D464F02B512ABD215AED6D5"
-                                "Folders"
-                                {
-                                }
-                            }
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_CF24E9EAF37E4A7981FFBEB686C34D3B"
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_B427F245A92C41CBBFA83CB31069FCB7"
                             {
                             "Name" = "8:stageSelect"
                             "AlwaysCreate" = "11:FALSE"
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
-                            "Property" = "8:_E5DB3B9C5E0F46178ECAB22BBFAA4F9E"
+                            "Property" = "8:_C51298F3612F4E4DBFEB9587A3700B4B"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_C304E9AAD68F43129027F083B39E795B"
+                            {
+                            "Name" = "8:rewards"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_43F5E9A49F174C08A08DA52B2314FADD"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_C43AE2EAC2C14302906D101C34183663"
+                            {
+                            "Name" = "8:shop"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_D4B8871668B7403C9A190FFD1DBB6939"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_C855FCF311644E79B1426860FB8B69DD"
+                            {
+                            "Name" = "8:general"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_FB90E26EB4DA48789349D6F62664897A"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_FD24034B1A804381AE5D0D40F04E7E35"
+                            {
+                            "Name" = "8:charges"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_FDA3BA417C0F4583890398744395552F"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_FFD810EC511F4170B71E6B5D78562194"
+                            {
+                            "Name" = "8:shaders"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_1D7F08838D1E49E7B8A9475E56FA5093"
                                 "Folders"
                                 {
                                 }
@@ -1675,7 +1825,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SpaceShip"
         "ProductCode" = "8:{E2CDA6F5-93B5-469A-8743-097B2D3CFED2}"
-        "PackageCode" = "8:{7CE89FC0-147B-4677-BFE3-0E4303F20A4C}"
+        "PackageCode" = "8:{0480B195-C623-4CBF-88E5-B7F315515A4E}"
         "UpgradeCode" = "8:{82D92AF4-2E9A-4F7E-B13C-ABB962EAD958}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

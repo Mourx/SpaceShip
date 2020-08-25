@@ -1,6 +1,5 @@
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\vc141.pdb
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\vc141.idb
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\rewardscreen.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\player.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\orbbot.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\main.obj
@@ -20,6 +19,7 @@ c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\button
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\basicshield.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\basiccharge.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\artefact.obj
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\ancienthammer.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\wideshield.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\values.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\titlescreen.obj
@@ -33,7 +33,7 @@ c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\shopti
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\shopscreen.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\ship.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\shield.obj
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\ancienthammer.obj
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\x64\debug\rewardscreen.obj
 c:\users\joel\documents\spaceship\spaceship\spaceship\x64\debug\spaceship.exe
 c:\users\joel\documents\spaceship\spaceship\spaceship\x64\debug\spaceship.ilk
 c:\users\joel\documents\spaceship\spaceship\spaceship\x64\debug\spaceship.pdb
