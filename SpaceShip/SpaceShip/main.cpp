@@ -154,6 +154,10 @@ int main() {
 				case TREASURE:
 					//need to implement;
 					break;
+				case BOSS:
+					gameScreen = COMBAT_SCREEN;
+					combat = new Combat(&window, player, new BossEncounter());
+					break;
 				}
 				
 				

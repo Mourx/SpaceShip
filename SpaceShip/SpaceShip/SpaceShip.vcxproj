@@ -146,6 +146,7 @@
     <ClCompile Include="Artefact.cpp" />
     <ClCompile Include="BasicCharge.cpp" />
     <ClCompile Include="BasicShield.cpp" />
+    <ClCompile Include="BossEncounter.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="Charge.cpp" />
     <ClCompile Include="ChargeFactory.cpp" />

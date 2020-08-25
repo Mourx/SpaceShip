@@ -9,8 +9,14 @@ public:
 	Encounter();
 	~Encounter();
 	vector<Enemy*> GetEnemies();
-private:
+protected:
 	vector<Enemy*> enemies;
 	EnemyFactory factory;
 };
 
+class BossEncounter : public Encounter
+{
+public:
+	BossEncounter();
+	~BossEncounter();
+};

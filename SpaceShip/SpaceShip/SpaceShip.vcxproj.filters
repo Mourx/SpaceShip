@@ -73,6 +73,9 @@
     <Filter Include="Source Files\Artefacts">
       <UniqueIdentifier>{182cdab2-25d6-4439-8c10-4d28551cd8d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Encounters">
+      <UniqueIdentifier>{3fc1fe37-6046-4458-9555-424fa3c0aac0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -135,12 +138,6 @@
     <ClCompile Include="TitleScreen.cpp">
       <Filter>Source Files\Screens</Filter>
     </ClCompile>
-    <ClCompile Include="Encounter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ShopScreen.cpp">
       <Filter>Source Files\Screens</Filter>
     </ClCompile>
@@ -176,6 +173,15 @@
     </ClCompile>
     <ClCompile Include="AncientHammer.cpp">
       <Filter>Source Files\Artefacts</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEncounter.cpp">
+      <Filter>Source Files\Encounters</Filter>
+    </ClCompile>
+    <ClCompile Include="Encounter.cpp">
+      <Filter>Source Files\Encounters</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFactory.cpp">
+      <Filter>Source Files\Encounters</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
