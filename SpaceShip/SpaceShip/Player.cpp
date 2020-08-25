@@ -37,7 +37,8 @@ Player::Player() {
 	goldText.setFont(font);
 	goldText.setPosition(300, 20);
 	goldText.setCharacterSize(12);
-	
+
+	AddArtefact(new AncientHammer());
 }
 
 Player::~Player() {
@@ -108,6 +109,9 @@ void Player::DrawDetails(RenderWindow* w) {
 			c->DrawOver(w);
 		}
 	}
+	for (Artefact* a : artefacts) {
+		a->DrawOver(w);
+	}
 }
 vector<Charge*> Player::getHand() {
 
@@ -116,10 +120,10 @@ vector<Charge*> Player::getHand() {
 
 void Player::Update(Time t) {
 	for (Charge* c : hand) {
-		c->Update(t);
+		c->Update(t, getArtefacts());
 	}
 	for (Charge* c : discard) {
-		c->Update(t);
+		c->Update(t, getArtefacts());
 	}
 	goldText.setString(to_string(money));
 }
@@ -130,13 +134,13 @@ void Player::UseCharge(Charge* c) {
 	hand.erase(std::remove(hand.begin(), hand.end(), c),hand.end());
 	discard[discard.size()-1]->icon.setPosition(-150, -150);
 	int count = 0;
-	for (Charge* c : hand) {
+	for (Charge* ch : hand) {
 		if (handPos.size() == count) {
 			handPos.push_back(Vector2f(150 + count * 60, 680));
 		}
 		Vector2f pos = handPos[count];
-		c->icon.setPosition(pos);
-		c->restPos = pos;
+		ch->icon.setPosition(pos);
+		ch->restPos = pos;
 		count++;
 	}
 	
@@ -185,6 +189,11 @@ int Player::getDiscardSize() {
 void Player::AddCharge(Charge* c) {
 	c->icon.setScale(1, 1);
 	chargeDeck.push_back(c);
+}
+
+void Player::AddArtefact(Artefact* a) {
+	a->setPosition(Vector2f(100 + artefacts.size() * 40, 50));
+	artefacts.push_back(a);
 }
 
 void Player::discardHand() {

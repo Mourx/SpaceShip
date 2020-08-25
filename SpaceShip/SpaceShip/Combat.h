@@ -5,6 +5,7 @@
 #include <vector>
 #include <SFML/Graphics.hpp>
 #include "enums.h"
+#include "Artefact.h"
 #include "Encounter.h"
 using namespace std;
 using namespace sf;
@@ -58,6 +59,6 @@ private:
 	int totalEnemies;
 	bool bCombatOver = false;
 	GAME_RESULT result = ACTIVE;
-
+	vector<Artefact*> artefacts;
 };
 

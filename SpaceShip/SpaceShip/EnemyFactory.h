@@ -9,7 +9,8 @@ public:
 	static Enemy* GenerateEnemy(ENEMY_RARITY rarity) {
 		CreateEnemy createCommon[] =
 		{
-			Dummy::Create
+			Dummy::Create,
+			OrbBot::Create
 
 		};
 		const int countCom = sizeof(createCommon) / sizeof(*createCommon);

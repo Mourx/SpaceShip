@@ -142,6 +142,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AncientHammer.cpp" />
+    <ClCompile Include="Artefact.cpp" />
     <ClCompile Include="BasicCharge.cpp" />
     <ClCompile Include="BasicShield.cpp" />
     <ClCompile Include="Button.cpp" />
@@ -158,6 +160,7 @@
     <ClCompile Include="ExitButton.cpp" />
     <ClCompile Include="Gun.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OrbBot.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="RewardScreen.cpp" />
     <ClCompile Include="Shield.cpp" />
@@ -175,6 +178,7 @@
     <ClCompile Include="WideShield.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Artefact.h" />
     <ClInclude Include="Button.h" />
     <ClInclude Include="Charge.h" />
     <ClInclude Include="ChargeFactory.h" />

@@ -46,5 +46,9 @@ private:
 	int currentTier = 0;
 	StageType* selectedStage = NULL;
 	PICK_STATE phase = PICKING;
+	int maxShops = 2;
+	int currentShops = 0;
+	int maxTreasure = 5;
+	int currentTreasure = 0;
 };
 

@@ -6,7 +6,7 @@ Combat::Combat(RenderWindow* w,Player* p,Encounter* e) {
 	player = p;
 	encounter = e;
 	player->loadDeck();
-	gridX = 20 + window->getSize().x / 2;
+	gridX = (float)(20 + window->getSize().x / 2);
 	for (int i = 0; i < 5; i++) {
 		vector<Tile*> r;
 		for (int j = 0; j < 5; j++) {
@@ -23,7 +23,7 @@ Combat::Combat(RenderWindow* w,Player* p,Encounter* e) {
 		}
 		combatGrid[y][x]->setUnit(e);
 	}
-	totalEnemies = encounter->GetEnemies().size();
+	totalEnemies = (int)encounter->GetEnemies().size();
 	spaceTex.loadFromFile("Textures/general/space.png");
 	space.setTexture(spaceTex);
 	space.setPosition(0, 0);

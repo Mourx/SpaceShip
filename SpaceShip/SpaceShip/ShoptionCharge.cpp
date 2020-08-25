@@ -48,5 +48,6 @@ void ShoptionCharge::SetPosition(int x, int y) {
 }
 
 void ShoptionCharge::Update(Time t) {
-	charge->Update(t);
+	vector<Artefact*> a;
+	charge->Update(t, a);
 }

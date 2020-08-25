@@ -67,6 +67,12 @@
     <Filter Include="Source Files\Buttons">
       <UniqueIdentifier>{489e53c4-9823-4994-909b-4b27f8471b1d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Artefacts">
+      <UniqueIdentifier>{f50fc8af-d91e-427c-9188-bf6d61bff843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Artefacts">
+      <UniqueIdentifier>{182cdab2-25d6-4439-8c10-4d28551cd8d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -162,6 +168,15 @@
     <ClCompile Include="values.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="OrbBot.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Artefact.cpp">
+      <Filter>Source Files\Artefacts</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientHammer.cpp">
+      <Filter>Source Files\Artefacts</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -220,6 +235,9 @@
     </ClInclude>
     <ClInclude Include="Shoption.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Artefact.h">
+      <Filter>Header Files\Artefacts</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -3,7 +3,7 @@
 #include "Gun.h"
 #include "Ship.h"
 #include "Charge.h"
-
+#include "Artefact.h"
 #include <vector>
 using namespace sf;
 using namespace std;
@@ -30,7 +30,8 @@ public:
 	vector<Vector2f> handPos;
 	void drawHand();
 	void Damage(int dmg);
-	void AddCharge(Charge* c);
+	void AddCharge(Charge* c); 
+	void AddArtefact(Artefact* a);
 	bool CheckAnimations();
 	Sprite healthIcon;
 	Text healthText;
@@ -39,10 +40,11 @@ public:
 	int getDiscardSize();
 	int energyPerTurn = 3;
 	int currentEnergy = 0;
-	int getLevel() { return level; }
+	int getLevel() { return this->level; }
 	void levelUp();
 	void addMoney(int m) { money += m; };
 	int getMoney() { return money; }
+	vector<Artefact*> getArtefacts() { return artefacts; }
 private:
 	Ship* ship;
 	Sprite icon;
@@ -54,6 +56,7 @@ private:
 	vector<Charge*> deck;
 	vector<Charge*> hand;
 	vector<Charge*> discard;
+	vector<Artefact*> artefacts;
 	int handSize = 4;
 	int health = 0;
 	int level = 0;

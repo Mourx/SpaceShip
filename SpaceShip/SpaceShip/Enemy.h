@@ -51,3 +51,14 @@ public:
 	static Enemy* Create() { return new Dummy(); };
 
 };
+
+
+class OrbBot : public Enemy
+{
+public:
+	OrbBot();
+	~OrbBot();
+	void Attack(Gun* g, Player* p);
+	static Enemy* Create() { return new OrbBot(); };
+
+};

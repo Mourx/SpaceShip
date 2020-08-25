@@ -48,6 +48,18 @@ void StagePath::GeneratePath() {
 		else {
 			for (int n = 0; n < stageAmounts[tier]; n++) {
 				STAGE_TYPE t = (STAGE_TYPE)(rand() % 3);
+				while (currentShops == maxShops && t == SHOP) {
+					t = (STAGE_TYPE)(rand() % 3);
+				}
+				while (currentTreasure == maxTreasure && t == TREASURE) {
+					t = (STAGE_TYPE)(rand() % 3);
+				}
+				if (t == SHOP) {
+					currentShops++;
+				}
+				if (t == TREASURE) {
+					currentTreasure++;
+				}
 				s = new StageType(t);
 				if (stageAmounts[tier] == 2) {
 					s->icon.setPosition(60 + tier * 90, 260 + n * 100);

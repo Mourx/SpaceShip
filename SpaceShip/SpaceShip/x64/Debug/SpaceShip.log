@@ -1,3 +1,65 @@
-﻿  main.cpp
+﻿  AncientHammer.cpp
+  Artefact.cpp
+  BasicCharge.cpp
+  BasicShield.cpp
+  Button.cpp
+  Charge.cpp
+  ChargeFactory.cpp
+  Combat.cpp
+  Dummy.cpp
+  EasyBomb.cpp
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Encounter.cpp
+  EndTurnButton.cpp
+  Enemy.cpp
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\enemy.cpp(45): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  EnemyFactory.cpp
+  ExitButton.cpp
+  OrbBot.cpp
+  Player.cpp
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(139): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(150): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(159): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(162): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(182): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(186): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(195): warning C4244: 'argument': conversion from 'unsigned __int64' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  RewardScreen.cpp
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\rewardscreen.cpp(18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Ship.cpp
+  ShopScreen.cpp
+  Generating Code...
+  Compiling...
+  Shoption.cpp
+  ShoptionBonus.cpp
+  ShoptionCharge.cpp
+c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\shoptioncharge.cpp(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  StartGameButton.cpp
+  Tile.cpp
+  TitleScreen.cpp
+  WideShield.cpp
+  enums.h
+  main.cpp
 c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\main.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
   SpaceShip.vcxproj -> C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\x64\Debug\SpaceShip.exe

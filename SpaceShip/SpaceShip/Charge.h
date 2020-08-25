@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include "Gun.h"
 #include "Tile.h"
+#include "Artefact.h"
 #include <iostream>
 class Gun;
 using namespace sf;
@@ -15,7 +16,7 @@ public:
 	Charge();
 	virtual ~Charge() = default;
 	virtual void Fire(Gun* g,vector<vector<Tile*>> grid,vector<Gun*> guns) { cout << "base" << endl; }
-	virtual void Update(Time t);
+	virtual void Update(Time t, vector<Artefact*> arts);
 	virtual void StartTimer(Time t) {};
 	virtual void DrawUnder(RenderWindow* w);
 	virtual void DrawOver(RenderWindow* w);
@@ -28,9 +29,13 @@ public:
 	int handPos = 0;
 	Vector2f restPos;
 protected:
+	CHARGE_TYPE type;
 	bool bHover = false;
 	int cost =0;
 	float damage;
+	float bonusRAW;
+	float bonusBOOST;
+	float totalDamage;
 	int width;
 	Texture chargeTex;
 	Texture chargeEffTex;
@@ -51,6 +56,7 @@ public:
 	~BasicCharge();
 	static Charge* Create() { return new BasicCharge(); };
 	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
+	void Update(Time t, vector<Artefact*> arts);
 	bool CheckAnimation() { return bEffectVisible; }
 
 };
@@ -61,6 +67,7 @@ public:
 	~BasicShield();
 	static Charge* Create() { return new BasicShield(); };
 	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
+	void Update(Time t, vector<Artefact*> arts);
 	bool CheckAnimation() { return bEffectVisible; }
 };
 
@@ -70,6 +77,7 @@ public:
 	~EasyBomb();
 	static Charge* Create() { return new EasyBomb(); };
 	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
+	void Update(Time t, vector<Artefact*> arts);
 	bool CheckAnimation() { return bEffectVisible; }
 };
 
@@ -79,5 +87,6 @@ public:
 	~WideShield();
 	static Charge* Create() { return new WideShield(); };
 	void Fire(Gun* g, vector<vector<Tile*>> grid, vector<Gun*> guns);
+	void Update(Time t, vector<Artefact*> arts);
 	bool CheckAnimation() { return bEffectVisible; }
 };
