@@ -22,6 +22,7 @@ Enemy::Enemy() {
 	healthIcon.setTexture(healthTex);
 	attackIcon.setScale(0.5, 0.5);
 	healthIcon.setScale(0.5, 0.5);
+	effectShade.loadFromFile("Textures/shaders/effectShade.vert", Shader::Vertex);
 
 }
 
@@ -52,6 +53,14 @@ void Enemy::Draw(RenderWindow* w) {
 	w->draw(attackIcon);
 	w->draw(healthText);
 	w->draw(healthIcon);
+	
+	
+}
+void Enemy::DrawOver(RenderWindow* w) {
+	
+    if (bEffectVisible) {
+		w->draw(attackEffect, &effectShade);
+	}
 }
 
 void Enemy::Damage(int dmg) {
@@ -62,4 +71,30 @@ void Enemy::Damage(int dmg) {
 	}
 	String hp = to_string(health);
 	healthText.setString(hp);
+}
+
+void Enemy::Update(Time t) {
+	if (bAttackDelayed) {
+		float time = (float)(t.asMicroseconds());
+		delayTimer += time;
+		if (delayTimer >= delayTime) {
+			bEffectVisible = true;
+			bAttackDelayed = false;
+			delayTimer = 0;
+		}
+	}
+	if (bEffectVisible) {
+		float time = (float)(t.asMicroseconds());
+		timer += time;
+		effectVal = (effectTime - timer) / effectTime;
+		effectShade.setUniform("time", effectVal);
+		if (timer >= effectTime) {
+			timer = 0;
+			bEffectVisible = false;
+		}
+
+	}
+	attackEffect.setScale(-1, 1);
+	attackEffect.setPosition(this->icon.getPosition());
+
 }

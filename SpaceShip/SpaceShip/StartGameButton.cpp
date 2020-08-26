@@ -6,7 +6,7 @@ StartGameButton::StartGameButton() {
 	distortion.setRepeated(true);
 	distortion.setSmooth(true);
 	icon.setTexture(buttTex);
-	icon.setPosition(300, 100);
+	icon.setPosition(250, 100);
 	shader.loadFromFile("Textures/shaders/wavy.vert", Shader::Vertex);
 	distortionShader.loadFromFile("Textures/shaders/distort.frag", Shader::Fragment);
 	distortionShader.setUniform("currentTexture", buttTex);

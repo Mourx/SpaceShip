@@ -59,7 +59,7 @@ private:
 	vector<Artefact*> artefacts;
 	int handSize = 4;
 	int health = 0;
-	int level = 6;
+	int level = 0;
 	int money;
 
 

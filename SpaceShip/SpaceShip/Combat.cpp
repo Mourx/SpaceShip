@@ -92,7 +92,13 @@ void Combat::Draw() {
 		}
 	}
 	player->DrawDetails(window);
-	
+	for (vector<Tile*> v : combatGrid) {
+		for (Tile* t : v) {
+			if (t->bHasUnit) {
+				t->getUnit()->DrawOver(window);
+			}
+		}
+	}
 	endTurn->Draw(window);
 	
 }
@@ -162,6 +168,14 @@ void Combat::UpdateStrings() {
 
 void Combat::Update(Time t) {
 	player->Update(t);
+	for (vector<Tile*> v : combatGrid) {
+		for (Tile* ti : v) {
+			if (ti->bHasUnit) {
+				Enemy* e = ti->getUnit();
+				e->Update(t);
+			}
+		}
+	}
 }
 
 void Combat::AdvanceTurn() {
@@ -189,11 +203,13 @@ void Combat::AdvanceTurn() {
 
 void Combat::DoAITurn() {
 	int row = 0;
+	int count = 0;
 	for (vector<Tile*> v : combatGrid) {
 		for (Tile* t : v) {
 			if (t->bHasUnit) {
 				Enemy* e = t->getUnit();
-				e->Attack(player->guns[row],player);
+				e->Attack(player->guns[row],player,count);
+				count++;
 			}
 		}
 		row++;
