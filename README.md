@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 [Link](url) and
 ```
-![Image](https://mourx.github.com/SpaceShip/previews/videos/toolTips.mp4)
+![Image](https://mourx.github.com/SpaceShip/tree/master/previews/videos/toolTips.mp4)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
