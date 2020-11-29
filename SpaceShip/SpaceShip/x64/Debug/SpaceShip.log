@@ -1,4 +1,6 @@
-﻿  BasicCharge.cpp
+﻿  AncientHammer.cpp
+  Artefact.cpp
+  BasicCharge.cpp
   BasicShield.cpp
   BossEncounter.cpp
   Button.cpp
@@ -6,61 +8,77 @@
   ChargeFactory.cpp
   Combat.cpp
   Dummy.cpp
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\dummy.cpp(29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\Dummy.cpp(29,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   EasyBomb.cpp
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\easybomb.cpp(80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\EasyBomb.cpp(42,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\EasyBomb.cpp(46,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\EasyBomb.cpp(50,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\EasyBomb.cpp(57,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\EasyBomb.cpp(61,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\EasyBomb.cpp(65,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\EasyBomb.cpp(72,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\EasyBomb.cpp(76,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\EasyBomb.cpp(80,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Encounter.cpp
   EndTurnButton.cpp
   Enemy.cpp
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\enemy.cpp(46): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\Enemy.cpp(46,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
   EnemyFactory.cpp
+  enums.h
   ExitButton.cpp
+  Gun.cpp
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\Gun.cpp(7,24): warning C4305: 'argument': truncation from 'double' to 'float'
+  main.cpp
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\main.cpp(12,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   OrbBot.cpp
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\orbbot.cpp(26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\OrbBot.cpp(26,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  Compiling...
   Player.cpp
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(139): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\Player.cpp(139,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(150): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(159): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\Player.cpp(150,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\Player.cpp(159,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(162): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(182): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(186): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\player.cpp(195): warning C4244: 'argument': conversion from 'unsigned __int64' to 'T', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\Player.cpp(162,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\Player.cpp(182,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\Player.cpp(186,23): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\Player.cpp(195,30): warning C4244: 'argument': conversion from 'unsigned __int64' to 'T', possible loss of data
           with
           [
               T=float
           ]
   RewardScreen.cpp
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\rewardscreen.cpp(18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\RewardScreen.cpp(18,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Shield.cpp
   Ship.cpp
   ShopScreen.cpp
   Shoption.cpp
-  Generating Code...
-  Compiling...
   ShoptionBonus.cpp
   ShoptionCharge.cpp
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\shoptioncharge.cpp(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\ShoptionCharge.cpp(46,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\ShoptionCharge.cpp(46,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  StagePath.cpp
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\StagePath.cpp(45,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\StagePath.cpp(65,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\StagePath.cpp(65,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\StagePath.cpp(68,56): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\StagePath.cpp(68,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  StageType.cpp
   StartGameButton.cpp
   Tile.cpp
   TitleScreen.cpp
+  values.cpp
   WideShield.cpp
-  enums.h
-  main.cpp
-c:\users\joel\documents\spaceship\spaceship\spaceship\spaceship\main.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating Code...
   SpaceShip.vcxproj -> C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\x64\Debug\SpaceShip.exe

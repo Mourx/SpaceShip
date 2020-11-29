@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1062
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpaceShip", "SpaceShip\SpaceShip.vcxproj", "{E5FD7D5F-46A4-4509-BA10-38F76F139D5C}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GameInstaller", "GameInstaller\GameInstaller.vdproj", "{5892782B-EC5F-4CAB-8A60-DFE6AA2C6816}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,11 +21,6 @@ Global
 		{E5FD7D5F-46A4-4509-BA10-38F76F139D5C}.Release|x64.Build.0 = Release|x64
 		{E5FD7D5F-46A4-4509-BA10-38F76F139D5C}.Release|x86.ActiveCfg = Release|Win32
 		{E5FD7D5F-46A4-4509-BA10-38F76F139D5C}.Release|x86.Build.0 = Release|Win32
-		{5892782B-EC5F-4CAB-8A60-DFE6AA2C6816}.Debug|x64.ActiveCfg = Debug
-		{5892782B-EC5F-4CAB-8A60-DFE6AA2C6816}.Debug|x64.Build.0 = Debug
-		{5892782B-EC5F-4CAB-8A60-DFE6AA2C6816}.Debug|x86.ActiveCfg = Debug
-		{5892782B-EC5F-4CAB-8A60-DFE6AA2C6816}.Release|x64.ActiveCfg = Release
-		{5892782B-EC5F-4CAB-8A60-DFE6AA2C6816}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

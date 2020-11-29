@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\x64\Debug\SpaceShip.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\Textures\combat\backGUI.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\SpaceShip\Textures\combat\basicShot.png</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

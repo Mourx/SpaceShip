@@ -1,0 +1,2 @@
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\x64\Debug\Textures\combat\backGUI.png
+C:\Users\Joel\Documents\SpaceShip\SpaceShip\SpaceShip\x64\Debug\Textures\combat\basicShot.png
